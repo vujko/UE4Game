@@ -6,6 +6,7 @@
 #include "Kismet/GameplayStatics.h"
 #include "Engine/World.h"
 #include "Sound/SoundCue.h"
+#include "Enemy.h"
 
 AExplosive::AExplosive()
 {
@@ -19,9 +20,10 @@ void AExplosive::OnOverlapBegin(UPrimitiveComponent* OverlappedComponent, AActor
     if(OtherActor)
     {
         AMainCharacter* Player = Cast<AMainCharacter>(OtherActor);
-        if (Player) 
+        AEnemy* Enemy = Cast<AEnemy>(OtherActor);
+        if (Player || Enemy) 
         { 
-            Player->DecrementHealth(Damage); 
+            UGameplayStatics::ApplyDamage(OtherActor, Damage, nullptr, this, DamageTypeClass);
             if (OnCollisionParticleSystem)
             {
                 UGameplayStatics::SpawnEmitterAtLocation(GetWorld(), OnCollisionParticleSystem, GetActorLocation(), FRotator(0.f), true);

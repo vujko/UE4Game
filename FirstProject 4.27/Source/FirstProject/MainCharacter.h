@@ -121,6 +121,9 @@ public:
 	UPROPERTY(EditAnywhere, BlueprintReadWrite, Category = Combat)
 	class AMainPlayerController* MainPlayerController;
 
+	UPROPERTY(EditAnywhere, BlueprintReadWrite, Category = Combat)
+	TSubclassOf<AEnemy> EnemyFilter;
+
 	FORCEINLINE void SetCombatTarget(AEnemy* Target) { CombatTarget = Target; }
 	FORCEINLINE class USpringArmComponent* GetCameraBoom() const {return CameraBoom;}
 	FORCEINLINE class UCameraComponent* GetCameraFollow() const {return CameraFollow;}
@@ -166,7 +169,11 @@ public:
 		AActor* DamageCauser
 	);
 
+	UFUNCTION(BlueprintCallable)
 	void IncrementCoins();
+
+	UFUNCTION(BlueprintCallable)
+	void IncrementHealth(float Amount);
 
 	void Die();
 
@@ -188,4 +195,7 @@ public:
 	bool Alive();
 
 	void virtual Jump() override;
+
+	void UpdateCombatTarget();
+
 };

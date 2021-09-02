@@ -8,6 +8,7 @@
 #include "UObject/ScriptMacros.h"
 
 PRAGMA_DISABLE_DEPRECATION_WARNINGS
+class AMainCharacter;
 #ifdef FIRSTPROJECT_Pickup_generated_h
 #error "Pickup.generated.h already included, missing '#pragma once' in Pickup.h"
 #endif
@@ -16,6 +17,14 @@ PRAGMA_DISABLE_DEPRECATION_WARNINGS
 #define FirstProject_4_27_Source_FirstProject_Pickup_h_15_SPARSE_DATA
 #define FirstProject_4_27_Source_FirstProject_Pickup_h_15_RPC_WRAPPERS
 #define FirstProject_4_27_Source_FirstProject_Pickup_h_15_RPC_WRAPPERS_NO_PURE_DECLS
+#define FirstProject_4_27_Source_FirstProject_Pickup_h_15_EVENT_PARMS \
+	struct Pickup_eventOnPickupBP_Parms \
+	{ \
+		AMainCharacter* Target; \
+	};
+
+
+#define FirstProject_4_27_Source_FirstProject_Pickup_h_15_CALLBACK_WRAPPERS
 #define FirstProject_4_27_Source_FirstProject_Pickup_h_15_INCLASS_NO_PURE_DECLS \
 private: \
 	static void StaticRegisterNativesAPickup(); \
@@ -59,13 +68,17 @@ public: \
 
 
 #define FirstProject_4_27_Source_FirstProject_Pickup_h_15_PRIVATE_PROPERTY_OFFSET
-#define FirstProject_4_27_Source_FirstProject_Pickup_h_12_PROLOG
+#define FirstProject_4_27_Source_FirstProject_Pickup_h_12_PROLOG \
+	FirstProject_4_27_Source_FirstProject_Pickup_h_15_EVENT_PARMS
+
+
 #define FirstProject_4_27_Source_FirstProject_Pickup_h_15_GENERATED_BODY_LEGACY \
 PRAGMA_DISABLE_DEPRECATION_WARNINGS \
 public: \
 	FirstProject_4_27_Source_FirstProject_Pickup_h_15_PRIVATE_PROPERTY_OFFSET \
 	FirstProject_4_27_Source_FirstProject_Pickup_h_15_SPARSE_DATA \
 	FirstProject_4_27_Source_FirstProject_Pickup_h_15_RPC_WRAPPERS \
+	FirstProject_4_27_Source_FirstProject_Pickup_h_15_CALLBACK_WRAPPERS \
 	FirstProject_4_27_Source_FirstProject_Pickup_h_15_INCLASS \
 	FirstProject_4_27_Source_FirstProject_Pickup_h_15_STANDARD_CONSTRUCTORS \
 public: \
@@ -78,6 +91,7 @@ public: \
 	FirstProject_4_27_Source_FirstProject_Pickup_h_15_PRIVATE_PROPERTY_OFFSET \
 	FirstProject_4_27_Source_FirstProject_Pickup_h_15_SPARSE_DATA \
 	FirstProject_4_27_Source_FirstProject_Pickup_h_15_RPC_WRAPPERS_NO_PURE_DECLS \
+	FirstProject_4_27_Source_FirstProject_Pickup_h_15_CALLBACK_WRAPPERS \
 	FirstProject_4_27_Source_FirstProject_Pickup_h_15_INCLASS_NO_PURE_DECLS \
 	FirstProject_4_27_Source_FirstProject_Pickup_h_15_ENHANCED_CONSTRUCTORS \
 private: \

@@ -24,3 +24,5 @@ C:\Program Files\Epic Games\UE_4.27\Engine\Source\Runtime\Engine\Classes\Sound/S
 C:\Program Files\Epic Games\UE_4.27\Engine\Source\Runtime\Engine\Classes\Sound/SoundNode.h
 C:\Program Files\Epic Games\UE_4.27\Engine\Intermediate\Build\Win64\UE4Editor\Inc\Engine\SoundNode.generated.h
 C:\Program Files\Epic Games\UE_4.27\Engine\Intermediate\Build\Win64\UE4Editor\Inc\Engine\SoundCue.generated.h
+C:\SSD120\Korisnik\GameDev\Unreal projects\UE4Game\FirstProject 4.27\Source\FirstProject\Enemy.h
+C:\SSD120\Korisnik\GameDev\Unreal projects\UE4Game\FirstProject 4.27\Intermediate\Build\Win64\UE4Editor\Inc\FirstProject\Enemy.generated.h

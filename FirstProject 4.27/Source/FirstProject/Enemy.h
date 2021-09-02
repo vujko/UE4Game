@@ -145,7 +145,7 @@ public:
 		AActor* DamageCauser
 	);
 
-	void Die();
+	void Die(AActor* DamageCauser);
 
 	UFUNCTION(BlueprintCallable)
 	void DeathEnd();

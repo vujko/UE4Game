@@ -18,14 +18,18 @@ PRAGMA_DISABLE_DEPRECATION_WARNINGS
  \
 	DECLARE_FUNCTION(execDeathEnd); \
 	DECLARE_FUNCTION(execPlaySwingSound); \
-	DECLARE_FUNCTION(execEndAttack);
+	DECLARE_FUNCTION(execEndAttack); \
+	DECLARE_FUNCTION(execIncrementHealth); \
+	DECLARE_FUNCTION(execIncrementCoins);
 
 
 #define FirstProject_4_27_Source_FirstProject_MainCharacter_h_34_RPC_WRAPPERS_NO_PURE_DECLS \
  \
 	DECLARE_FUNCTION(execDeathEnd); \
 	DECLARE_FUNCTION(execPlaySwingSound); \
-	DECLARE_FUNCTION(execEndAttack);
+	DECLARE_FUNCTION(execEndAttack); \
+	DECLARE_FUNCTION(execIncrementHealth); \
+	DECLARE_FUNCTION(execIncrementCoins);
 
 
 #define FirstProject_4_27_Source_FirstProject_MainCharacter_h_34_INCLASS_NO_PURE_DECLS \

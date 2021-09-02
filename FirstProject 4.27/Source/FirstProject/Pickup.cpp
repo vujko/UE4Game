@@ -22,7 +22,7 @@ void APickup::OnOverlapBegin(UPrimitiveComponent* OverlappedComponent, AActor* O
         AMainCharacter* Player = Cast<AMainCharacter>(OtherActor);
         if (Player)
         {
-            Player->IncrementCoins();
+            OnPickupBP(Player);
             if (OnCollisionParticleSystem)
             {
                 UGameplayStatics::SpawnEmitterAtLocation(GetWorld(), OnCollisionParticleSystem, GetActorLocation(), FRotator(0.f), true);
