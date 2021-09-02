@@ -1,0 +1,52 @@
+﻿  Using 'git status' to determine working set for adaptive non-unity build (C:\SSD120\Korisnik\GameDev\Unreal projects\UE4Game).
+  Invalidating makefile for FirstProjectEditor (source file removed)
+  Parsing headers for FirstProjectEditor
+    Running UnrealHeaderTool "C:\SSD120\Korisnik\GameDev\Unreal projects\UE4Game\FirstProject 4.27\FirstProject.uproject" "C:\SSD120\Korisnik\GameDev\Unreal projects\UE4Game\FirstProject 4.27\Intermediate\Build\Win64\FirstProjectEditor\Development\FirstProjectEditor.uhtmanifest" -LogCmds="loginit warning, logexit warning, logdatabase error" -Unattended -WarningsAsErrors -abslog="C:\Users\Vukasin\AppData\Local\UnrealBuildTool\Log_UHT.txt" -installed
+  LogInit: Display: Loading text-based GConfig....
+  Reflection code generated for FirstProjectEditor in 31.2155044 seconds
+  Building FirstProjectEditor...
+  Using Visual Studio 2019 14.29.30133 toolchain (C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\VC\Tools\MSVC\14.29.30133) and Windows 10.0.17763.0 SDK (C:\Program Files (x86)\Windows Kits\10).
+  Building 39 actions with 4 processes...
+    [1/39] Default.rc2
+    [2/39] SharedPCH.Engine.ShadowErrors.cpp
+    [3/39] ColliderMovementComponent.cpp
+    [4/39] Critter.cpp
+    [5/39] Collider.cpp
+    [6/39] EnemyAnimInstance.cpp
+    [7/39] Enemy.cpp
+    [8/39] FirstProject.cpp
+    [9/39] Explosive.cpp
+    [10/39] FirstProjectGameModeBase.cpp
+    [11/39] FloatingPlatform.cpp
+    [12/39] FloorSwitch.cpp
+    [13/39] Item.cpp
+    [14/39] MainAnimInstance.cpp
+    [15/39] MainCharacter.cpp
+    [16/39] Pickup.cpp
+    [17/39] SpawnVolume.cpp
+    [18/39] Collider.gen.cpp
+    [19/39] ColliderMovementComponent.gen.cpp
+    [20/39] Weapon.cpp
+    [21/39] Critter.gen.cpp
+    [22/39] Enemy.gen.cpp
+    [23/39] EnemyAnimInstance.gen.cpp
+    [24/39] MainPlayerController.cpp
+    [25/39] Explosive.gen.cpp
+    [26/39] FirstProject.init.gen.cpp
+    [27/39] FirstProjectGameModeBase.gen.cpp
+    [28/39] FloatingPlatform.gen.cpp
+    [29/39] FloorSwitch.gen.cpp
+    [30/39] Item.gen.cpp
+    [31/39] MainAnimInstance.gen.cpp
+    [32/39] MainCharacter.gen.cpp
+    [33/39] MainPlayerController.gen.cpp
+    [34/39] Pickup.gen.cpp
+    [35/39] SpawnVolume.gen.cpp
+    [36/39] Weapon.gen.cpp
+    [37/39] UE4Editor-FirstProject-0016.lib
+       Creating library C:\SSD120\Korisnik\GameDev\Unreal projects\UE4Game\FirstProject 4.27\Intermediate\Build\Win64\UE4Editor\Development\FirstProject\UE4Editor-FirstProject-0016.lib and object C:\SSD120\Korisnik\GameDev\Unreal projects\UE4Game\FirstProject 4.27\Intermediate\Build\Win64\UE4Editor\Development\FirstProject\UE4Editor-FirstProject-0016.exp
+    [38/39] UE4Editor-FirstProject-0016.dll
+       Creating library C:\SSD120\Korisnik\GameDev\Unreal projects\UE4Game\FirstProject 4.27\Intermediate\Build\Win64\UE4Editor\Development\FirstProject\UE4Editor-FirstProject-0016.suppressed.lib and object C:\SSD120\Korisnik\GameDev\Unreal projects\UE4Game\FirstProject 4.27\Intermediate\Build\Win64\UE4Editor\Development\FirstProject\UE4Editor-FirstProject-0016.suppressed.exp
+    [39/39] FirstProjectEditor.target
+  Total time in Parallel executor: 82.04 seconds
+  Total execution time: 120.35 seconds

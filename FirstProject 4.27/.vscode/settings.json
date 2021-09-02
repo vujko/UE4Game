@@ -1,0 +1,10 @@
+{
+	"files.exclude": {
+		"C:/Users/Korisnik/GameDev/Unreal projects/FirstProject/.vs": true,
+		"C:/Users/Korisnik/GameDev/Unreal projects/FirstProject/.vscode": true,
+		"C:/Users/Korisnik/GameDev/Unreal projects/FirstProject/Content": true,
+		"C:/Users/Korisnik/GameDev/Unreal projects/FirstProject/DerivedDataCache": true,
+		"C:/Users/Korisnik/GameDev/Unreal projects/FirstProject/Intermediate": true,
+		"C:/Users/Korisnik/GameDev/Unreal projects/FirstProject/Saved": true
+	}
+}

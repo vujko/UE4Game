@@ -1,0 +1,1143 @@
+﻿Log file open, 03/15/21 17:50:37
+LogInit: Display: Running engine for game: FirstProject
+LogPlatformFile: Not using cached read wrapper
+LogTaskGraph: Started task graph with 5 named threads and 11 total threads with 3 sets of task threads.
+LogStats: Stats thread started at 0.324447
+LogD3D11RHI: Loaded GFSDK_Aftermath_Lib.x64.dll
+LogICUInternationalization: ICU TimeZone Detection - Raw Offset: +1:00, Platform Override: ''
+LogPluginManager: Mounting plugin Paper2D
+LogPluginManager: Mounting plugin AISupport
+LogPluginManager: Mounting plugin LightPropagationVolume
+LogPluginManager: Mounting plugin CameraShakePreviewer
+LogPluginManager: Mounting plugin ActorLayerUtilities
+LogPluginManager: Mounting plugin AnimationSharing
+LogPluginManager: Mounting plugin CLionSourceCodeAccess
+LogPluginManager: Mounting plugin CodeLiteSourceCodeAccess
+LogPluginManager: Mounting plugin GitSourceControl
+LogPluginManager: Mounting plugin KDevelopSourceCodeAccess
+LogPluginManager: Mounting plugin NullSourceCodeAccess
+LogPluginManager: Mounting plugin PerforceSourceControl
+LogPluginManager: Mounting plugin PlasticSourceControl
+LogPluginManager: Mounting plugin RiderSourceCodeAccess
+LogPluginManager: Mounting plugin SubversionSourceControl
+LogPluginManager: Mounting plugin UObjectPlugin
+LogPluginManager: Mounting plugin VisualStudioCodeSourceCodeAccess
+LogPluginManager: Mounting plugin VisualStudioSourceCodeAccess
+LogPluginManager: Mounting plugin XCodeSourceCodeAccess
+LogPluginManager: Mounting plugin AssetManagerEditor
+LogPluginManager: Mounting plugin CryptoKeys
+LogPluginManager: Mounting plugin CurveEditorTools
+LogPluginManager: Mounting plugin DataValidation
+LogPluginManager: Mounting plugin EditorScriptingUtilities
+LogPluginManager: Mounting plugin FacialAnimation
+LogPluginManager: Mounting plugin GameplayTagsEditor
+LogPluginManager: Mounting plugin GeometryMode
+LogPluginManager: Mounting plugin MacGraphicsSwitching
+LogPluginManager: Mounting plugin MaterialAnalyzer
+LogPluginManager: Mounting plugin MobileLauncherProfileWizard
+LogPluginManager: Mounting plugin PluginBrowser
+LogPluginManager: Mounting plugin SpeedTreeImporter
+LogPluginManager: Mounting plugin DatasmithContent
+LogPluginManager: Mounting plugin VariantManagerContent
+LogPluginManager: Mounting plugin AlembicImporter
+LogPluginManager: Mounting plugin AutomationUtils
+LogPluginManager: Mounting plugin BackChannel
+LogPluginManager: Mounting plugin ChaosCloth
+LogPluginManager: Mounting plugin ChaosClothEditor
+LogPluginManager: Mounting plugin ChaosEditor
+LogPluginManager: Mounting plugin ChaosNiagara
+LogPluginManager: Mounting plugin ChaosSolverPlugin
+LogPluginManager: Mounting plugin CharacterAI
+LogPluginManager: Mounting plugin GeometryCache
+LogPluginManager: Mounting plugin GeometryCollectionPlugin
+LogPluginManager: Mounting plugin GeometryProcessing
+LogPluginManager: Mounting plugin PlanarCut
+LogPluginManager: Mounting plugin PlatformCrypto
+LogPluginManager: Mounting plugin ProxyLODPlugin
+LogPluginManager: Mounting plugin SkeletalReduction
+LogPluginManager: Mounting plugin Niagara
+LogPluginManager: Mounting plugin MagicLeap
+LogPluginManager: Mounting plugin MagicLeapLightEstimation
+LogPluginManager: Mounting plugin MagicLeapMedia
+LogPluginManager: Mounting plugin MagicLeapPassableWorld
+LogPluginManager: Mounting plugin MLSDK
+LogPluginManager: Mounting plugin AndroidMedia
+LogPluginManager: Mounting plugin AvfMedia
+LogPluginManager: Mounting plugin ImgMedia
+LogPluginManager: Mounting plugin MediaCompositing
+LogPluginManager: Mounting plugin MediaPlayerEditor
+LogPluginManager: Mounting plugin WebMMedia
+LogPluginManager: Mounting plugin WmfMedia
+LogPluginManager: Mounting plugin MeshPainting
+LogPluginManager: Mounting plugin TcpMessaging
+LogPluginManager: Mounting plugin UdpMessaging
+LogPluginManager: Mounting plugin ActorSequence
+LogPluginManager: Mounting plugin LevelSequenceEditor
+LogPluginManager: Mounting plugin MatineeToLevelSequence
+LogPluginManager: Mounting plugin MovieRenderPipeline
+LogPluginManager: Mounting plugin TemplateSequence
+LogPluginManager: Mounting plugin NetcodeUnitTest
+LogPluginManager: Mounting plugin NUTUnrealEngine4
+LogPluginManager: Mounting plugin OnlineSubsystemGooglePlay
+LogPluginManager: Mounting plugin OnlineSubsystemIOS
+LogPluginManager: Mounting plugin OnlineSubsystem
+LogPluginManager: Mounting plugin OnlineSubsystemNull
+LogPluginManager: Mounting plugin OnlineSubsystemUtils
+LogPluginManager: Mounting plugin LauncherChunkInstaller
+LogPluginManager: Mounting plugin AndroidDeviceProfileSelector
+LogPluginManager: Mounting plugin AndroidMoviePlayer
+LogPluginManager: Mounting plugin AndroidPermission
+LogPluginManager: Mounting plugin AppleImageUtils
+LogPluginManager: Mounting plugin AppleMoviePlayer
+LogPluginManager: Mounting plugin ArchVisCharacter
+LogPluginManager: Mounting plugin AssetTags
+LogPluginManager: Mounting plugin AudioCapture
+LogPluginManager: Mounting plugin CableComponent
+LogPluginManager: Mounting plugin CustomMeshComponent
+LogPluginManager: Mounting plugin EditableMesh
+LogPluginManager: Mounting plugin ExampleDeviceProfileSelector
+LogPluginManager: Mounting plugin GoogleCloudMessaging
+LogPluginManager: Mounting plugin GooglePAD
+LogPluginManager: Mounting plugin IOSDeviceProfileSelector
+LogPluginManager: Mounting plugin LinuxDeviceProfileSelector
+LogPluginManager: Mounting plugin LocationServicesBPLibrary
+LogPluginManager: Mounting plugin MobilePatchingUtils
+LogPluginManager: Mounting plugin OculusVR
+LogPluginManager: Mounting plugin PhysXVehicles
+LogPluginManager: Mounting plugin PostSplashScreen
+LogPluginManager: Mounting plugin ProceduralMeshComponent
+LogPluginManager: Mounting plugin RuntimePhysXCooking
+LogPluginManager: Mounting plugin SignificanceManager
+LogPluginManager: Mounting plugin SoundFields
+LogPluginManager: Mounting plugin SteamVR
+LogPluginManager: Mounting plugin Synthesis
+LogPluginManager: Mounting plugin WebMMoviePlayer
+LogPluginManager: Mounting plugin WindowsMoviePlayer
+LogPluginManager: Mounting plugin ScreenshotTools
+LogInit: Using libcurl 7.55.1-DEV
+LogInit:  - built for x86_64-pc-win32
+LogInit:  - supports SSL with OpenSSL/1.1.1
+LogInit:  - supports HTTP deflate (compression) using libz 1.2.8
+LogInit:  - other features:
+LogInit:      CURL_VERSION_SSL
+LogInit:      CURL_VERSION_LIBZ
+LogInit:      CURL_VERSION_IPV6
+LogInit:      CURL_VERSION_ASYNCHDNS
+LogInit:      CURL_VERSION_LARGEFILE
+LogInit:      CURL_VERSION_IDN
+LogInit:  CurlRequestOptions (configurable via config and command line):
+LogInit:  - bVerifyPeer = true  - Libcurl will verify peer certificate
+LogInit:  - bUseHttpProxy = false  - Libcurl will NOT use HTTP proxy
+LogInit:  - bDontReuseConnections = false  - Libcurl will reuse connections
+LogInit:  - MaxHostConnections = 16  - Libcurl will limit the number of connections to a host
+LogInit:  - LocalHostAddr = Default
+LogInit:  - BufferSize = 65536
+LogOnline: OSS: Creating online subsystem instance for: NULL
+LogInit: WinSock: version 1.1 (2.2), MaxSocks=32767, MaxUdp=65467
+LogOnline: OSS: TryLoadSubsystemAndSetDefault: Loaded subsystem for module [NULL]
+LogInit: Build: ++UE4+Release-4.25-CL-14469661
+LogInit: Engine Version: 4.25.4-14469661+++UE4+Release-4.25
+LogInit: Compatible Engine Version: 4.25.0-13144385+++UE4+Release-4.25
+LogInit: Net CL: 13144385
+LogInit: OS: Windows 10 (Release 1909) (), CPU: Intel(R) Core(TM) i5-7200U CPU @ 2.50GHz, GPU: Intel(R) HD Graphics 620
+LogInit: Compiled (64-bit): Oct 11 2020 08:10:49
+LogInit: Compiled with Visual C++: 19.24.28315.00
+LogInit: Build Configuration: Development
+LogInit: Branch Name: ++UE4+Release-4.25
+LogInit: Command Line: 
+LogInit: Base Directory: E:/Unreal Engine/Epic Games/UE_4.25/Engine/Binaries/Win64/
+LogInit: Allocator: TBB
+LogInit: Installed Engine Build: 1
+LogDevObjectVersion: Number of dev versions registered: 26
+LogDevObjectVersion:   Dev-Blueprints (B0D832E4-1F89-4F0D-ACCF-7EB736FD4AA2): 10
+LogDevObjectVersion:   Dev-Build (E1C64328-A22C-4D53-A36C-8E866417BD8C): 0
+LogDevObjectVersion:   Dev-Core (375EC13C-06E4-48FB-B500-84F0262A717E): 4
+LogDevObjectVersion:   Dev-Editor (E4B068ED-F494-42E9-A231-DA0B2E46BB41): 38
+LogDevObjectVersion:   Dev-Framework (CFFC743F-43B0-4480-9391-14DF171D2073): 37
+LogDevObjectVersion:   Dev-Mobile (B02B49B5-BB20-44E9-A304-32B752E40360): 2
+LogDevObjectVersion:   Dev-Networking (A4E4105C-59A1-49B5-A7C5-40C4547EDFEE): 0
+LogDevObjectVersion:   Dev-Online (39C831C9-5AE6-47DC-9A44-9C173E1C8E7C): 0
+LogDevObjectVersion:   Dev-Physics (78F01B33-EBEA-4F98-B9B4-84EACCB95AA2): 4
+LogDevObjectVersion:   Dev-Platform (6631380F-2D4D-43E0-8009-CF276956A95A): 0
+LogDevObjectVersion:   Dev-Rendering (12F88B9F-8875-4AFC-A67C-D90C383ABD29): 43
+LogDevObjectVersion:   Dev-Sequencer (7B5AE74C-D270-4C10-A958-57980B212A5A): 12
+LogDevObjectVersion:   Dev-VR (D7296918-1DD6-4BDD-9DE2-64A83CC13884): 3
+LogDevObjectVersion:   Dev-LoadTimes (C2A15278-BFE7-4AFE-6C17-90FF531DF755): 1
+LogDevObjectVersion:   Private-Geometry (6EACA3D4-40EC-4CC1-B786-8BED09428FC5): 3
+LogDevObjectVersion:   Dev-AnimPhys (29E575DD-E0A3-4627-9D10-D276232CDCEA): 17
+LogDevObjectVersion:   Dev-Anim (AF43A65D-7FD3-4947-9873-3E8ED9C1BB05): 7
+LogDevObjectVersion:   Dev-ReflectionCapture (6B266CEC-1EC7-4B8F-A30B-E4D90942FC07): 1
+LogDevObjectVersion:   Dev-Automation (0DF73D61-A23F-47EA-B727-89E90C41499A): 1
+LogDevObjectVersion:   FortniteMain (601D1886-AC64-4F84-AA16-D3DE0DEAC7D6): 31
+LogDevObjectVersion:   Dev-Enterprise (9DFFBCD6-494F-0158-E221-12823C92A888): 10
+LogDevObjectVersion:   Dev-Niagara (F2AED0AC-9AFE-416F-8664-AA7FFA26D6FC): 1
+LogDevObjectVersion:   Dev-Destruction (174F1F0B-B4C6-45A5-B13F-2EE8D0FB917D): 10
+LogDevObjectVersion:   Dev-Physics-Ext (35F94A83-E258-406C-A318-09F59610247C): 37
+LogDevObjectVersion:   Dev-PhysicsMaterial-Chaos (B68FC16E-8B1B-42E2-B453-215C058844FE): 1
+LogDevObjectVersion:   Dev-CineCamera (B2E18506-4273-CFC2-A54E-F4BB758BBA07): 1
+LogInit: Presizing for max 25165824 objects, including 0 objects not considered by GC, pre-allocating 0 bytes for permanent pool.
+LogConfig: Applying CVar settings from Section [/Script/Engine.StreamingSettings] File [C:/Users/Korisnik/GameDev/Unreal projects/FirstProject/Saved/Config/Windows/Engine.ini]
+LogConfig: Setting CVar [[s.MinBulkDataSizeForAsyncLoading:131072]]
+LogConfig: Setting CVar [[s.AsyncLoadingThreadEnabled:0]]
+LogConfig: Setting CVar [[s.EventDrivenLoaderEnabled:1]]
+LogConfig: Setting CVar [[s.WarnIfTimeLimitExceeded:0]]
+LogConfig: Setting CVar [[s.TimeLimitExceededMultiplier:1.5]]
+LogConfig: Setting CVar [[s.TimeLimitExceededMinTime:0.005]]
+LogConfig: Setting CVar [[s.UseBackgroundLevelStreaming:1]]
+LogConfig: Setting CVar [[s.PriorityAsyncLoadingExtraTime:15.0]]
+LogConfig: Setting CVar [[s.LevelStreamingActorsUpdateTimeLimit:5.0]]
+LogConfig: Setting CVar [[s.PriorityLevelStreamingActorsUpdateExtraTime:5.0]]
+LogConfig: Setting CVar [[s.LevelStreamingComponentsRegistrationGranularity:10]]
+LogConfig: Setting CVar [[s.UnregisterComponentsTimeLimit:1.0]]
+LogConfig: Setting CVar [[s.LevelStreamingComponentsUnregistrationGranularity:5]]
+LogConfig: Setting CVar [[s.FlushStreamingOnExit:1]]
+LogInit: Object subsystem initialized
+LogConfig: Setting CVar [[con.DebugEarlyDefault:1]]
+LogConfig: Setting CVar [[r.setres:1280x720]]
+[2021.03.15-16.50.37:489][  0]LogConfig: Setting CVar [[r.VSync:0]]
+[2021.03.15-16.50.37:489][  0]LogConfig: Setting CVar [[r.RHICmdBypass:0]]
+[2021.03.15-16.50.37:489][  0]LogConfig: Applying CVar settings from Section [/Script/Engine.RendererSettings] File [C:/Users/Korisnik/GameDev/Unreal projects/FirstProject/Saved/Config/Windows/Engine.ini]
+[2021.03.15-16.50.37:489][  0]LogConfig: Setting CVar [[r.GPUCrashDebugging:0]]
+[2021.03.15-16.50.37:489][  0]LogConfig: Applying CVar settings from Section [/Script/Engine.RendererOverrideSettings] File [C:/Users/Korisnik/GameDev/Unreal projects/FirstProject/Saved/Config/Windows/Engine.ini]
+[2021.03.15-16.50.37:489][  0]LogConfig: Applying CVar settings from Section [/Script/Engine.StreamingSettings] File [C:/Users/Korisnik/GameDev/Unreal projects/FirstProject/Saved/Config/Windows/Engine.ini]
+[2021.03.15-16.50.37:489][  0]LogConfig: Setting CVar [[s.MinBulkDataSizeForAsyncLoading:131072]]
+[2021.03.15-16.50.37:489][  0]LogConfig: Setting CVar [[s.AsyncLoadingThreadEnabled:0]]
+[2021.03.15-16.50.37:489][  0]LogConfig: Setting CVar [[s.EventDrivenLoaderEnabled:1]]
+[2021.03.15-16.50.37:489][  0]LogConfig: Setting CVar [[s.WarnIfTimeLimitExceeded:0]]
+[2021.03.15-16.50.37:489][  0]LogConfig: Setting CVar [[s.TimeLimitExceededMultiplier:1.5]]
+[2021.03.15-16.50.37:489][  0]LogConfig: Setting CVar [[s.TimeLimitExceededMinTime:0.005]]
+[2021.03.15-16.50.37:489][  0]LogConfig: Setting CVar [[s.UseBackgroundLevelStreaming:1]]
+[2021.03.15-16.50.37:489][  0]LogConfig: Setting CVar [[s.PriorityAsyncLoadingExtraTime:15.0]]
+[2021.03.15-16.50.37:489][  0]LogConfig: Setting CVar [[s.LevelStreamingActorsUpdateTimeLimit:5.0]]
+[2021.03.15-16.50.37:489][  0]LogConfig: Setting CVar [[s.PriorityLevelStreamingActorsUpdateExtraTime:5.0]]
+[2021.03.15-16.50.37:489][  0]LogConfig: Setting CVar [[s.LevelStreamingComponentsRegistrationGranularity:10]]
+[2021.03.15-16.50.37:489][  0]LogConfig: Setting CVar [[s.UnregisterComponentsTimeLimit:1.0]]
+[2021.03.15-16.50.37:489][  0]LogConfig: Setting CVar [[s.LevelStreamingComponentsUnregistrationGranularity:5]]
+[2021.03.15-16.50.37:489][  0]LogConfig: Setting CVar [[s.FlushStreamingOnExit:1]]
+[2021.03.15-16.50.37:489][  0]LogConfig: Applying CVar settings from Section [/Script/Engine.GarbageCollectionSettings] File [C:/Users/Korisnik/GameDev/Unreal projects/FirstProject/Saved/Config/Windows/Engine.ini]
+[2021.03.15-16.50.37:489][  0]LogConfig: Setting CVar [[gc.MaxObjectsNotConsideredByGC:1]]
+[2021.03.15-16.50.37:489][  0]LogConfig: Setting CVar [[gc.SizeOfPermanentObjectPool:0]]
+[2021.03.15-16.50.37:489][  0]LogConfig: Setting CVar [[gc.FlushStreamingOnGC:0]]
+[2021.03.15-16.50.37:489][  0]LogConfig: Setting CVar [[gc.NumRetriesBeforeForcingGC:10]]
+[2021.03.15-16.50.37:489][  0]LogConfig: Setting CVar [[gc.AllowParallelGC:1]]
+[2021.03.15-16.50.37:489][  0]LogConfig: Setting CVar [[gc.TimeBetweenPurgingPendingKillObjects:61.1]]
+[2021.03.15-16.50.37:489][  0]LogConfig: Setting CVar [[gc.MaxObjectsInEditor:25165824]]
+[2021.03.15-16.50.37:489][  0]LogConfig: Setting CVar [[gc.IncrementalBeginDestroyEnabled:1]]
+[2021.03.15-16.50.37:489][  0]LogConfig: Setting CVar [[gc.CreateGCClusters:1]]
+[2021.03.15-16.50.37:489][  0]LogConfig: Setting CVar [[gc.MinGCClusterSize:5]]
+[2021.03.15-16.50.37:489][  0]LogConfig: Setting CVar [[gc.ActorClusteringEnabled:0]]
+[2021.03.15-16.50.37:489][  0]LogConfig: Setting CVar [[gc.BlueprintClusteringEnabled:0]]
+[2021.03.15-16.50.37:489][  0]LogConfig: Setting CVar [[gc.UseDisregardForGCOnDedicatedServers:0]]
+[2021.03.15-16.50.37:489][  0]LogConfig: Applying CVar settings from Section [/Script/Engine.NetworkSettings] File [C:/Users/Korisnik/GameDev/Unreal projects/FirstProject/Saved/Config/Windows/Engine.ini]
+[2021.03.15-16.50.37:489][  0]LogConfig: Applying CVar settings from Section [/Script/UnrealEd.CookerSettings] File [C:/Users/Korisnik/GameDev/Unreal projects/FirstProject/Saved/Config/Windows/Engine.ini]
+[2021.03.15-16.50.37:491][  0]LogConfig: Applying CVar settings from Section [ViewDistanceQuality@3] File [C:/Users/Korisnik/GameDev/Unreal projects/FirstProject/Saved/Config/Windows/Scalability.ini]
+[2021.03.15-16.50.37:492][  0]LogConfig: Setting CVar [[r.SkeletalMeshLODBias:0]]
+[2021.03.15-16.50.37:492][  0]LogConfig: Setting CVar [[r.ViewDistanceScale:1.0]]
+[2021.03.15-16.50.37:492][  0]LogConfig: Applying CVar settings from Section [AntiAliasingQuality@3] File [C:/Users/Korisnik/GameDev/Unreal projects/FirstProject/Saved/Config/Windows/Scalability.ini]
+[2021.03.15-16.50.37:492][  0]LogConfig: Setting CVar [[r.PostProcessAAQuality:4]]
+[2021.03.15-16.50.37:492][  0]LogConfig: Applying CVar settings from Section [ShadowQuality@3] File [C:/Users/Korisnik/GameDev/Unreal projects/FirstProject/Saved/Config/Windows/Scalability.ini]
+[2021.03.15-16.50.37:492][  0]LogConfig: Setting CVar [[r.LightFunctionQuality:1]]
+[2021.03.15-16.50.37:492][  0]LogConfig: Setting CVar [[r.ShadowQuality:5]]
+[2021.03.15-16.50.37:492][  0]LogConfig: Setting CVar [[r.Shadow.CSM.MaxCascades:10]]
+[2021.03.15-16.50.37:492][  0]LogConfig: Setting CVar [[r.Shadow.MaxResolution:2048]]
+[2021.03.15-16.50.37:492][  0]LogConfig: Setting CVar [[r.Shadow.MaxCSMResolution:2048]]
+[2021.03.15-16.50.37:492][  0]LogConfig: Setting CVar [[r.Shadow.RadiusThreshold:0.01]]
+[2021.03.15-16.50.37:492][  0]LogConfig: Setting CVar [[r.Shadow.DistanceScale:1.0]]
+[2021.03.15-16.50.37:492][  0]LogConfig: Setting CVar [[r.Shadow.CSM.TransitionScale:1.0]]
+[2021.03.15-16.50.37:492][  0]LogConfig: Setting CVar [[r.Shadow.PreShadowResolutionFactor:1.0]]
+[2021.03.15-16.50.37:492][  0]LogConfig: Setting CVar [[r.DistanceFieldShadowing:1]]
+[2021.03.15-16.50.37:492][  0]LogConfig: Setting CVar [[r.DistanceFieldAO:1]]
+[2021.03.15-16.50.37:492][  0]LogConfig: Setting CVar [[r.AOQuality:2]]
+[2021.03.15-16.50.37:492][  0]LogConfig: Setting CVar [[r.VolumetricFog:1]]
+[2021.03.15-16.50.37:492][  0]LogConfig: Setting CVar [[r.VolumetricFog.GridPixelSize:8]]
+[2021.03.15-16.50.37:492][  0]LogConfig: Setting CVar [[r.VolumetricFog.GridSizeZ:128]]
+[2021.03.15-16.50.37:492][  0]LogConfig: Setting CVar [[r.VolumetricFog.HistoryMissSupersampleCount:4]]
+[2021.03.15-16.50.37:492][  0]LogConfig: Setting CVar [[r.LightMaxDrawDistanceScale:1]]
+[2021.03.15-16.50.37:492][  0]LogConfig: Setting CVar [[r.CapsuleShadows:1]]
+[2021.03.15-16.50.37:492][  0]LogConfig: Applying CVar settings from Section [PostProcessQuality@3] File [C:/Users/Korisnik/GameDev/Unreal projects/FirstProject/Saved/Config/Windows/Scalability.ini]
+[2021.03.15-16.50.37:492][  0]LogConfig: Setting CVar [[r.MotionBlurQuality:4]]
+[2021.03.15-16.50.37:492][  0]LogConfig: Setting CVar [[r.AmbientOcclusionMipLevelFactor:0.4]]
+[2021.03.15-16.50.37:492][  0]LogConfig: Setting CVar [[r.AmbientOcclusionMaxQuality:100]]
+[2021.03.15-16.50.37:492][  0]LogConfig: Setting CVar [[r.AmbientOcclusionLevels:-1]]
+[2021.03.15-16.50.37:492][  0]LogConfig: Setting CVar [[r.AmbientOcclusionRadiusScale:1.0]]
+[2021.03.15-16.50.37:492][  0]LogConfig: Setting CVar [[r.DepthOfFieldQuality:2]]
+[2021.03.15-16.50.37:492][  0]LogConfig: Setting CVar [[r.RenderTargetPoolMin:400]]
+[2021.03.15-16.50.37:492][  0]LogConfig: Setting CVar [[r.LensFlareQuality:2]]
+[2021.03.15-16.50.37:492][  0]LogConfig: Setting CVar [[r.SceneColorFringeQuality:1]]
+[2021.03.15-16.50.37:492][  0]LogConfig: Setting CVar [[r.EyeAdaptationQuality:2]]
+[2021.03.15-16.50.37:492][  0]LogConfig: Setting CVar [[r.BloomQuality:5]]
+[2021.03.15-16.50.37:492][  0]LogConfig: Setting CVar [[r.FastBlurThreshold:100]]
+[2021.03.15-16.50.37:492][  0]LogConfig: Setting CVar [[r.Upscale.Quality:3]]
+[2021.03.15-16.50.37:492][  0]LogConfig: Setting CVar [[r.Tonemapper.GrainQuantization:1]]
+[2021.03.15-16.50.37:492][  0]LogConfig: Setting CVar [[r.LightShaftQuality:1]]
+[2021.03.15-16.50.37:492][  0]LogConfig: Setting CVar [[r.Filter.SizeScale:1]]
+[2021.03.15-16.50.37:492][  0]LogConfig: Setting CVar [[r.Tonemapper.Quality:5]]
+[2021.03.15-16.50.37:492][  0]LogConfig: Setting CVar [[r.DOF.Gather.AccumulatorQuality:1        ; higher gathering accumulator quality]]
+[2021.03.15-16.50.37:492][  0]LogConfig: Setting CVar [[r.DOF.Gather.PostfilterMethod:1          ; Median3x3 postfilering method]]
+[2021.03.15-16.50.37:492][  0]LogConfig: Setting CVar [[r.DOF.Gather.EnableBokehSettings:0       ; no bokeh simulation when gathering]]
+[2021.03.15-16.50.37:492][  0]LogConfig: Setting CVar [[r.DOF.Gather.RingCount:4                 ; medium number of samples when gathering]]
+[2021.03.15-16.50.37:492][  0]LogConfig: Setting CVar [[r.DOF.Scatter.ForegroundCompositing:1    ; additive foreground scattering]]
+[2021.03.15-16.50.37:492][  0]LogConfig: Setting CVar [[r.DOF.Scatter.BackgroundCompositing:2    ; additive background scattering]]
+[2021.03.15-16.50.37:492][  0]LogConfig: Setting CVar [[r.DOF.Scatter.EnableBokehSettings:1      ; bokeh simulation when scattering]]
+[2021.03.15-16.50.37:492][  0]LogConfig: Setting CVar [[r.DOF.Scatter.MaxSpriteRatio:0.1         ; only a maximum of 10% of scattered bokeh]]
+[2021.03.15-16.50.37:492][  0]LogConfig: Setting CVar [[r.DOF.Recombine.Quality:1                ; cheap slight out of focus]]
+[2021.03.15-16.50.37:492][  0]LogConfig: Setting CVar [[r.DOF.Recombine.EnableBokehSettings:0    ; no bokeh simulation on slight out of focus]]
+[2021.03.15-16.50.37:492][  0]LogConfig: Setting CVar [[r.DOF.TemporalAAQuality:1                ; more stable temporal accumulation]]
+[2021.03.15-16.50.37:492][  0]LogConfig: Setting CVar [[r.DOF.Kernel.MaxForegroundRadius:0.025]]
+[2021.03.15-16.50.37:492][  0]LogConfig: Setting CVar [[r.DOF.Kernel.MaxBackgroundRadius:0.025]]
+[2021.03.15-16.50.37:492][  0]LogConfig: Applying CVar settings from Section [TextureQuality@3] File [C:/Users/Korisnik/GameDev/Unreal projects/FirstProject/Saved/Config/Windows/Scalability.ini]
+[2021.03.15-16.50.37:492][  0]LogConfig: Setting CVar [[r.Streaming.MipBias:0]]
+[2021.03.15-16.50.37:492][  0]LogConfig: Setting CVar [[r.Streaming.AmortizeCPUToGPUCopy:0]]
+[2021.03.15-16.50.37:492][  0]LogConfig: Setting CVar [[r.Streaming.MaxNumTexturesToStreamPerFrame:0]]
+[2021.03.15-16.50.37:492][  0]LogConfig: Setting CVar [[r.Streaming.Boost:1]]
+[2021.03.15-16.50.37:492][  0]LogConfig: Setting CVar [[r.MaxAnisotropy:8]]
+[2021.03.15-16.50.37:492][  0]LogConfig: Setting CVar [[r.VT.MaxAnisotropy:8]]
+[2021.03.15-16.50.37:492][  0]LogConfig: Setting CVar [[r.Streaming.LimitPoolSizeToVRAM:0]]
+[2021.03.15-16.50.37:492][  0]LogConfig: Setting CVar [[r.Streaming.PoolSize:1000]]
+[2021.03.15-16.50.37:492][  0]LogConfig: Setting CVar [[r.Streaming.MaxEffectiveScreenSize:0]]
+[2021.03.15-16.50.37:492][  0]LogConfig: Applying CVar settings from Section [EffectsQuality@3] File [C:/Users/Korisnik/GameDev/Unreal projects/FirstProject/Saved/Config/Windows/Scalability.ini]
+[2021.03.15-16.50.37:492][  0]LogConfig: Setting CVar [[r.TranslucencyLightingVolumeDim:64]]
+[2021.03.15-16.50.37:492][  0]LogConfig: Setting CVar [[r.RefractionQuality:2]]
+[2021.03.15-16.50.37:493][  0]LogConfig: Setting CVar [[r.SSR.Quality:3]]
+[2021.03.15-16.50.37:493][  0]LogConfig: Setting CVar [[r.SSR.HalfResSceneColor:0]]
+[2021.03.15-16.50.37:493][  0]LogConfig: Setting CVar [[r.SceneColorFormat:4]]
+[2021.03.15-16.50.37:493][  0]LogConfig: Setting CVar [[r.DetailMode:2]]
+[2021.03.15-16.50.37:493][  0]LogConfig: Setting CVar [[r.TranslucencyVolumeBlur:1]]
+[2021.03.15-16.50.37:493][  0]LogConfig: Setting CVar [[r.MaterialQualityLevel:1 ; High quality]]
+[2021.03.15-16.50.37:493][  0]LogConfig: Setting CVar [[r.SSS.Scale:1]]
+[2021.03.15-16.50.37:493][  0]LogConfig: Setting CVar [[r.SSS.SampleSet:2]]
+[2021.03.15-16.50.37:493][  0]LogConfig: Setting CVar [[r.SSS.Quality:1]]
+[2021.03.15-16.50.37:493][  0]LogConfig: Setting CVar [[r.SSS.HalfRes:0]]
+[2021.03.15-16.50.37:493][  0]LogConfig: Setting CVar [[r.SSGI.Quality:3]]
+[2021.03.15-16.50.37:493][  0]LogConfig: Setting CVar [[r.EmitterSpawnRateScale:1.0]]
+[2021.03.15-16.50.37:493][  0]LogConfig: Setting CVar [[r.ParticleLightQuality:2]]
+[2021.03.15-16.50.37:493][  0]LogConfig: Setting CVar [[r.SkyAtmosphere.AerialPerspectiveLUT.FastApplyOnOpaque:1 ; Always have FastSkyLUT 1 in this case to avoid wrong sky]]
+[2021.03.15-16.50.37:493][  0]LogConfig: Setting CVar [[r.SkyAtmosphere.AerialPerspectiveLUT.SampleCountPerSlice:1]]
+[2021.03.15-16.50.37:493][  0]LogConfig: Setting CVar [[r.SkyAtmosphere.AerialPerspectiveLUT.DepthResolution:16.0]]
+[2021.03.15-16.50.37:493][  0]LogConfig: Setting CVar [[r.SkyAtmosphere.FastSkyLUT:1]]
+[2021.03.15-16.50.37:493][  0]LogConfig: Setting CVar [[r.SkyAtmosphere.FastSkyLUT.SampleCountMin:4.0]]
+[2021.03.15-16.50.37:493][  0]LogConfig: Setting CVar [[r.SkyAtmosphere.FastSkyLUT.SampleCountMax:32.0]]
+[2021.03.15-16.50.37:493][  0]LogConfig: Setting CVar [[r.SkyAtmosphere.SampleCountMin:4.0]]
+[2021.03.15-16.50.37:493][  0]LogConfig: Setting CVar [[r.SkyAtmosphere.SampleCountMax:32.0]]
+[2021.03.15-16.50.37:493][  0]LogConfig: Setting CVar [[r.SkyAtmosphere.TransmittanceLUT.UseSmallFormat:0]]
+[2021.03.15-16.50.37:493][  0]LogConfig: Setting CVar [[r.SkyAtmosphere.TransmittanceLUT.SampleCount:10.0]]
+[2021.03.15-16.50.37:493][  0]LogConfig: Setting CVar [[r.SkyAtmosphere.MultiScatteringLUT.SampleCount:15.0]]
+[2021.03.15-16.50.37:493][  0]LogConfig: Applying CVar settings from Section [FoliageQuality@3] File [C:/Users/Korisnik/GameDev/Unreal projects/FirstProject/Saved/Config/Windows/Scalability.ini]
+[2021.03.15-16.50.37:493][  0]LogConfig: Setting CVar [[foliage.DensityScale:1.0]]
+[2021.03.15-16.50.37:493][  0]LogConfig: Setting CVar [[grass.DensityScale:1.0]]
+[2021.03.15-16.50.37:493][  0]LogConfig: Applying CVar settings from Section [ShadingQuality@3] File [C:/Users/Korisnik/GameDev/Unreal projects/FirstProject/Saved/Config/Windows/Scalability.ini]
+[2021.03.15-16.50.37:493][  0]LogConfig: Setting CVar [[r.HairStrands.SkyLighting.SampleCount:16]]
+[2021.03.15-16.50.37:493][  0]LogConfig: Setting CVar [[r.HairStrands.SkyLighting.JitterIntegration:0]]
+[2021.03.15-16.50.37:493][  0]LogConfig: Setting CVar [[r.HairStrands.SkyAO.SampleCount:16]]
+[2021.03.15-16.50.37:493][  0]LogConfig: Setting CVar [[r.HairStrands.DeepShadow.SuperSampling:0]]
+[2021.03.15-16.50.37:493][  0]LogConfig: Setting CVar [[r.HairStrands.VisibilityPPLL:0]]
+[2021.03.15-16.50.37:493][  0]LogConfig: Setting CVar [[r.HairStrands.RasterizationScale:0.5]]
+[2021.03.15-16.50.37:493][  0]LogConfig: Setting CVar [[r.HairStrands.VelocityRasterizationScale:1]]
+[2021.03.15-16.50.37:493][  0]LogInit: Selected Device Profile: [Windows]
+[2021.03.15-16.50.37:493][  0]LogInit: Applying CVar settings loaded from the selected device profile: [Windows]
+[2021.03.15-16.50.37:493][  0]LogHAL: Display: Platform has ~ 8 GB [8458141696 / 8589934592 / 8], which maps to Default [LargestMinGB=32, LargerMinGB=12, DefaultMinGB=8, SmallerMinGB=6, SmallestMinGB=0)
+[2021.03.15-16.50.37:493][  0]LogInit: Going up to parent DeviceProfile []
+[2021.03.15-16.50.37:493][  0]LogConfig: Applying CVar settings from Section [ViewDistanceQuality@3] File [C:/Users/Korisnik/GameDev/Unreal projects/FirstProject/Saved/Config/Windows/Scalability.ini]
+[2021.03.15-16.50.37:493][  0]LogConfig: Setting CVar [[r.SkeletalMeshLODBias:0]]
+[2021.03.15-16.50.37:493][  0]LogConfig: Setting CVar [[r.ViewDistanceScale:1.0]]
+[2021.03.15-16.50.37:493][  0]LogConfig: Applying CVar settings from Section [AntiAliasingQuality@3] File [C:/Users/Korisnik/GameDev/Unreal projects/FirstProject/Saved/Config/Windows/Scalability.ini]
+[2021.03.15-16.50.37:493][  0]LogConfig: Setting CVar [[r.PostProcessAAQuality:4]]
+[2021.03.15-16.50.37:493][  0]LogConfig: Applying CVar settings from Section [ShadowQuality@3] File [C:/Users/Korisnik/GameDev/Unreal projects/FirstProject/Saved/Config/Windows/Scalability.ini]
+[2021.03.15-16.50.37:493][  0]LogConfig: Setting CVar [[r.LightFunctionQuality:1]]
+[2021.03.15-16.50.37:493][  0]LogConfig: Setting CVar [[r.ShadowQuality:5]]
+[2021.03.15-16.50.37:493][  0]LogConfig: Setting CVar [[r.Shadow.CSM.MaxCascades:10]]
+[2021.03.15-16.50.37:493][  0]LogConfig: Setting CVar [[r.Shadow.MaxResolution:2048]]
+[2021.03.15-16.50.37:493][  0]LogConfig: Setting CVar [[r.Shadow.MaxCSMResolution:2048]]
+[2021.03.15-16.50.37:493][  0]LogConfig: Setting CVar [[r.Shadow.RadiusThreshold:0.01]]
+[2021.03.15-16.50.37:493][  0]LogConfig: Setting CVar [[r.Shadow.DistanceScale:1.0]]
+[2021.03.15-16.50.37:493][  0]LogConfig: Setting CVar [[r.Shadow.CSM.TransitionScale:1.0]]
+[2021.03.15-16.50.37:493][  0]LogConfig: Setting CVar [[r.Shadow.PreShadowResolutionFactor:1.0]]
+[2021.03.15-16.50.37:493][  0]LogConfig: Setting CVar [[r.DistanceFieldShadowing:1]]
+[2021.03.15-16.50.37:493][  0]LogConfig: Setting CVar [[r.DistanceFieldAO:1]]
+[2021.03.15-16.50.37:493][  0]LogConfig: Setting CVar [[r.AOQuality:2]]
+[2021.03.15-16.50.37:493][  0]LogConfig: Setting CVar [[r.VolumetricFog:1]]
+[2021.03.15-16.50.37:493][  0]LogConfig: Setting CVar [[r.VolumetricFog.GridPixelSize:8]]
+[2021.03.15-16.50.37:493][  0]LogConfig: Setting CVar [[r.VolumetricFog.GridSizeZ:128]]
+[2021.03.15-16.50.37:493][  0]LogConfig: Setting CVar [[r.VolumetricFog.HistoryMissSupersampleCount:4]]
+[2021.03.15-16.50.37:493][  0]LogConfig: Setting CVar [[r.LightMaxDrawDistanceScale:1]]
+[2021.03.15-16.50.37:493][  0]LogConfig: Setting CVar [[r.CapsuleShadows:1]]
+[2021.03.15-16.50.37:493][  0]LogConfig: Applying CVar settings from Section [PostProcessQuality@3] File [C:/Users/Korisnik/GameDev/Unreal projects/FirstProject/Saved/Config/Windows/Scalability.ini]
+[2021.03.15-16.50.37:493][  0]LogConfig: Setting CVar [[r.MotionBlurQuality:4]]
+[2021.03.15-16.50.37:493][  0]LogConfig: Setting CVar [[r.AmbientOcclusionMipLevelFactor:0.4]]
+[2021.03.15-16.50.37:493][  0]LogConfig: Setting CVar [[r.AmbientOcclusionMaxQuality:100]]
+[2021.03.15-16.50.37:493][  0]LogConfig: Setting CVar [[r.AmbientOcclusionLevels:-1]]
+[2021.03.15-16.50.37:493][  0]LogConfig: Setting CVar [[r.AmbientOcclusionRadiusScale:1.0]]
+[2021.03.15-16.50.37:493][  0]LogConfig: Setting CVar [[r.DepthOfFieldQuality:2]]
+[2021.03.15-16.50.37:493][  0]LogConfig: Setting CVar [[r.RenderTargetPoolMin:400]]
+[2021.03.15-16.50.37:493][  0]LogConfig: Setting CVar [[r.LensFlareQuality:2]]
+[2021.03.15-16.50.37:493][  0]LogConfig: Setting CVar [[r.SceneColorFringeQuality:1]]
+[2021.03.15-16.50.37:493][  0]LogConfig: Setting CVar [[r.EyeAdaptationQuality:2]]
+[2021.03.15-16.50.37:493][  0]LogConfig: Setting CVar [[r.BloomQuality:5]]
+[2021.03.15-16.50.37:493][  0]LogConfig: Setting CVar [[r.FastBlurThreshold:100]]
+[2021.03.15-16.50.37:493][  0]LogConfig: Setting CVar [[r.Upscale.Quality:3]]
+[2021.03.15-16.50.37:493][  0]LogConfig: Setting CVar [[r.Tonemapper.GrainQuantization:1]]
+[2021.03.15-16.50.37:493][  0]LogConfig: Setting CVar [[r.LightShaftQuality:1]]
+[2021.03.15-16.50.37:493][  0]LogConfig: Setting CVar [[r.Filter.SizeScale:1]]
+[2021.03.15-16.50.37:493][  0]LogConfig: Setting CVar [[r.Tonemapper.Quality:5]]
+[2021.03.15-16.50.37:493][  0]LogConfig: Setting CVar [[r.DOF.Gather.AccumulatorQuality:1        ; higher gathering accumulator quality]]
+[2021.03.15-16.50.37:493][  0]LogConfig: Setting CVar [[r.DOF.Gather.PostfilterMethod:1          ; Median3x3 postfilering method]]
+[2021.03.15-16.50.37:493][  0]LogConfig: Setting CVar [[r.DOF.Gather.EnableBokehSettings:0       ; no bokeh simulation when gathering]]
+[2021.03.15-16.50.37:493][  0]LogConfig: Setting CVar [[r.DOF.Gather.RingCount:4                 ; medium number of samples when gathering]]
+[2021.03.15-16.50.37:493][  0]LogConfig: Setting CVar [[r.DOF.Scatter.ForegroundCompositing:1    ; additive foreground scattering]]
+[2021.03.15-16.50.37:493][  0]LogConfig: Setting CVar [[r.DOF.Scatter.BackgroundCompositing:2    ; additive background scattering]]
+[2021.03.15-16.50.37:493][  0]LogConfig: Setting CVar [[r.DOF.Scatter.EnableBokehSettings:1      ; bokeh simulation when scattering]]
+[2021.03.15-16.50.37:493][  0]LogConfig: Setting CVar [[r.DOF.Scatter.MaxSpriteRatio:0.1         ; only a maximum of 10% of scattered bokeh]]
+[2021.03.15-16.50.37:493][  0]LogConfig: Setting CVar [[r.DOF.Recombine.Quality:1                ; cheap slight out of focus]]
+[2021.03.15-16.50.37:493][  0]LogConfig: Setting CVar [[r.DOF.Recombine.EnableBokehSettings:0    ; no bokeh simulation on slight out of focus]]
+[2021.03.15-16.50.37:493][  0]LogConfig: Setting CVar [[r.DOF.TemporalAAQuality:1                ; more stable temporal accumulation]]
+[2021.03.15-16.50.37:493][  0]LogConfig: Setting CVar [[r.DOF.Kernel.MaxForegroundRadius:0.025]]
+[2021.03.15-16.50.37:493][  0]LogConfig: Setting CVar [[r.DOF.Kernel.MaxBackgroundRadius:0.025]]
+[2021.03.15-16.50.37:493][  0]LogConfig: Applying CVar settings from Section [TextureQuality@3] File [C:/Users/Korisnik/GameDev/Unreal projects/FirstProject/Saved/Config/Windows/Scalability.ini]
+[2021.03.15-16.50.37:493][  0]LogConfig: Setting CVar [[r.Streaming.MipBias:0]]
+[2021.03.15-16.50.37:493][  0]LogConfig: Setting CVar [[r.Streaming.AmortizeCPUToGPUCopy:0]]
+[2021.03.15-16.50.37:493][  0]LogConfig: Setting CVar [[r.Streaming.MaxNumTexturesToStreamPerFrame:0]]
+[2021.03.15-16.50.37:494][  0]LogConfig: Setting CVar [[r.Streaming.Boost:1]]
+[2021.03.15-16.50.37:494][  0]LogConfig: Setting CVar [[r.MaxAnisotropy:8]]
+[2021.03.15-16.50.37:494][  0]LogConfig: Setting CVar [[r.VT.MaxAnisotropy:8]]
+[2021.03.15-16.50.37:494][  0]LogConfig: Setting CVar [[r.Streaming.LimitPoolSizeToVRAM:0]]
+[2021.03.15-16.50.37:494][  0]LogConfig: Setting CVar [[r.Streaming.PoolSize:1000]]
+[2021.03.15-16.50.37:494][  0]LogConfig: Setting CVar [[r.Streaming.MaxEffectiveScreenSize:0]]
+[2021.03.15-16.50.37:494][  0]LogConfig: Applying CVar settings from Section [EffectsQuality@3] File [C:/Users/Korisnik/GameDev/Unreal projects/FirstProject/Saved/Config/Windows/Scalability.ini]
+[2021.03.15-16.50.37:494][  0]LogConfig: Setting CVar [[r.TranslucencyLightingVolumeDim:64]]
+[2021.03.15-16.50.37:494][  0]LogConfig: Setting CVar [[r.RefractionQuality:2]]
+[2021.03.15-16.50.37:494][  0]LogConfig: Setting CVar [[r.SSR.Quality:3]]
+[2021.03.15-16.50.37:494][  0]LogConfig: Setting CVar [[r.SSR.HalfResSceneColor:0]]
+[2021.03.15-16.50.37:494][  0]LogConfig: Setting CVar [[r.SceneColorFormat:4]]
+[2021.03.15-16.50.37:494][  0]LogConfig: Setting CVar [[r.DetailMode:2]]
+[2021.03.15-16.50.37:494][  0]LogConfig: Setting CVar [[r.TranslucencyVolumeBlur:1]]
+[2021.03.15-16.50.37:494][  0]LogConfig: Setting CVar [[r.MaterialQualityLevel:1 ; High quality]]
+[2021.03.15-16.50.37:494][  0]LogConfig: Setting CVar [[r.SSS.Scale:1]]
+[2021.03.15-16.50.37:494][  0]LogConfig: Setting CVar [[r.SSS.SampleSet:2]]
+[2021.03.15-16.50.37:494][  0]LogConfig: Setting CVar [[r.SSS.Quality:1]]
+[2021.03.15-16.50.37:494][  0]LogConfig: Setting CVar [[r.SSS.HalfRes:0]]
+[2021.03.15-16.50.37:494][  0]LogConfig: Setting CVar [[r.SSGI.Quality:3]]
+[2021.03.15-16.50.37:494][  0]LogConfig: Setting CVar [[r.EmitterSpawnRateScale:1.0]]
+[2021.03.15-16.50.37:494][  0]LogConfig: Setting CVar [[r.ParticleLightQuality:2]]
+[2021.03.15-16.50.37:494][  0]LogConfig: Setting CVar [[r.SkyAtmosphere.AerialPerspectiveLUT.FastApplyOnOpaque:1 ; Always have FastSkyLUT 1 in this case to avoid wrong sky]]
+[2021.03.15-16.50.37:494][  0]LogConfig: Setting CVar [[r.SkyAtmosphere.AerialPerspectiveLUT.SampleCountPerSlice:1]]
+[2021.03.15-16.50.37:494][  0]LogConfig: Setting CVar [[r.SkyAtmosphere.AerialPerspectiveLUT.DepthResolution:16.0]]
+[2021.03.15-16.50.37:494][  0]LogConfig: Setting CVar [[r.SkyAtmosphere.FastSkyLUT:1]]
+[2021.03.15-16.50.37:494][  0]LogConfig: Setting CVar [[r.SkyAtmosphere.FastSkyLUT.SampleCountMin:4.0]]
+[2021.03.15-16.50.37:494][  0]LogConfig: Setting CVar [[r.SkyAtmosphere.FastSkyLUT.SampleCountMax:32.0]]
+[2021.03.15-16.50.37:494][  0]LogConfig: Setting CVar [[r.SkyAtmosphere.SampleCountMin:4.0]]
+[2021.03.15-16.50.37:494][  0]LogConfig: Setting CVar [[r.SkyAtmosphere.SampleCountMax:32.0]]
+[2021.03.15-16.50.37:494][  0]LogConfig: Setting CVar [[r.SkyAtmosphere.TransmittanceLUT.UseSmallFormat:0]]
+[2021.03.15-16.50.37:494][  0]LogConfig: Setting CVar [[r.SkyAtmosphere.TransmittanceLUT.SampleCount:10.0]]
+[2021.03.15-16.50.37:494][  0]LogConfig: Setting CVar [[r.SkyAtmosphere.MultiScatteringLUT.SampleCount:15.0]]
+[2021.03.15-16.50.37:494][  0]LogConfig: Applying CVar settings from Section [FoliageQuality@3] File [C:/Users/Korisnik/GameDev/Unreal projects/FirstProject/Saved/Config/Windows/Scalability.ini]
+[2021.03.15-16.50.37:494][  0]LogConfig: Setting CVar [[foliage.DensityScale:1.0]]
+[2021.03.15-16.50.37:494][  0]LogConfig: Setting CVar [[grass.DensityScale:1.0]]
+[2021.03.15-16.50.37:494][  0]LogConfig: Applying CVar settings from Section [ShadingQuality@3] File [C:/Users/Korisnik/GameDev/Unreal projects/FirstProject/Saved/Config/Windows/Scalability.ini]
+[2021.03.15-16.50.37:494][  0]LogConfig: Setting CVar [[r.HairStrands.SkyLighting.SampleCount:16]]
+[2021.03.15-16.50.37:494][  0]LogConfig: Setting CVar [[r.HairStrands.SkyLighting.JitterIntegration:0]]
+[2021.03.15-16.50.37:494][  0]LogConfig: Setting CVar [[r.HairStrands.SkyAO.SampleCount:16]]
+[2021.03.15-16.50.37:494][  0]LogConfig: Setting CVar [[r.HairStrands.DeepShadow.SuperSampling:0]]
+[2021.03.15-16.50.37:494][  0]LogConfig: Setting CVar [[r.HairStrands.VisibilityPPLL:0]]
+[2021.03.15-16.50.37:494][  0]LogConfig: Setting CVar [[r.HairStrands.RasterizationScale:0.5]]
+[2021.03.15-16.50.37:494][  0]LogConfig: Setting CVar [[r.HairStrands.VelocityRasterizationScale:1]]
+[2021.03.15-16.50.37:494][  0]LogConfig: Applying CVar settings from Section [Startup] File [../../../Engine/Config/ConsoleVariables.ini]
+[2021.03.15-16.50.37:494][  0]LogConfig: Setting CVar [[net.UseAdaptiveNetUpdateFrequency:0]]
+[2021.03.15-16.50.37:494][  0]LogConfig: Setting CVar [[p.chaos.AllowCreatePhysxBodies:1]]
+[2021.03.15-16.50.37:494][  0]LogConfig: Setting CVar [[fx.SkipVectorVMBackendOptimizations:1]]
+[2021.03.15-16.50.37:494][  0]LogConfig: Applying CVar settings from Section [ConsoleVariables] File [C:/Users/Korisnik/GameDev/Unreal projects/FirstProject/Saved/Config/Windows/Engine.ini]
+[2021.03.15-16.50.37:494][  0]LogInit: Computer: DESKTOP-43BVT5I
+[2021.03.15-16.50.37:494][  0]LogInit: User: Korisnik
+[2021.03.15-16.50.37:495][  0]LogInit: CPU Page size=4096, Cores=2
+[2021.03.15-16.50.37:495][  0]LogInit: High frequency timer resolution =10.000000 MHz
+[2021.03.15-16.50.37:495][  0]LogMemory: Memory total: Physical=7.9GB (8GB approx)
+[2021.03.15-16.50.37:495][  0]LogMemory: Platform Memory Stats for Windows
+[2021.03.15-16.50.37:495][  0]LogMemory: Process Physical Memory: 118.63 MB used, 118.64 MB peak
+[2021.03.15-16.50.37:495][  0]LogMemory: Process Virtual Memory: 107.60 MB used, 107.60 MB peak
+[2021.03.15-16.50.37:495][  0]LogMemory: Physical Memory: 5463.54 MB used,  2602.77 MB free, 8066.31 MB total
+[2021.03.15-16.50.37:495][  0]LogMemory: Virtual Memory: 5138.33 MB used,  134212592.00 MB free, 134217728.00 MB total
+[2021.03.15-16.50.37:502][  0]LogWindows: WindowsPlatformFeatures enabled
+[2021.03.15-16.50.37:545][  0]LogInit: Physics initialised using underlying interface: PhysX
+[2021.03.15-16.50.37:546][  0]LogInit: Using OS detected language (en-US).
+[2021.03.15-16.50.37:546][  0]LogInit: Using OS detected locale (sr-Latn-RS).
+[2021.03.15-16.50.37:548][  0]LogTextLocalizationManager: No specific localization for 'en-US' exists, so the 'en' localization will be used.
+[2021.03.15-16.50.37:857][  0]LogInit: Setting process to per monitor DPI aware
+[2021.03.15-16.50.37:890][  0]LogSlate: New Slate User Created.  User Index 0, Is Virtual User: 0
+[2021.03.15-16.50.37:890][  0]LogSlate: Slate User Registered.  User Index 0, Is Virtual User: 0
+[2021.03.15-16.50.38:042][  0]LogHMD: Failed to initialize OpenVR with code 110
+[2021.03.15-16.50.38:042][  0]LogD3D11RHI: D3D11 min allowed feature level: 11_0
+[2021.03.15-16.50.38:042][  0]LogD3D11RHI: D3D11 max allowed feature level: 11_0
+[2021.03.15-16.50.38:042][  0]LogD3D11RHI: D3D11 adapters:
+[2021.03.15-16.50.38:123][  0]LogD3D11RHI:    0. 'AMD Radeon (TM) R5 M330' (Feature Level 11_0)
+[2021.03.15-16.50.38:123][  0]LogD3D11RHI:       2039/0/4033 MB DedicatedVideo/DedicatedSystem/SharedSystem, Outputs:1, VendorId:0x1002
+[2021.03.15-16.50.38:132][  0]LogD3D11RHI:    1. 'Intel(R) HD Graphics 620' (Feature Level 11_0)
+[2021.03.15-16.50.38:132][  0]LogD3D11RHI:       128/0/4033 MB DedicatedVideo/DedicatedSystem/SharedSystem, Outputs:0, VendorId:0x8086
+[2021.03.15-16.50.38:136][  0]LogD3D11RHI:    2. 'Microsoft Basic Render Driver' (Feature Level 11_0)
+[2021.03.15-16.50.38:136][  0]LogD3D11RHI:       0/0/4033 MB DedicatedVideo/DedicatedSystem/SharedSystem, Outputs:0, VendorId:0x1414
+[2021.03.15-16.50.38:136][  0]LogD3D11RHI: Chosen D3D11 Adapter: 0
+[2021.03.15-16.50.38:143][  0]LogD3D11RHI: Creating new Direct3DDevice
+[2021.03.15-16.50.38:143][  0]LogD3D11RHI:     GPU DeviceId: 0x6660 (for the marketing name, search the web for "GPU Device Id")
+[2021.03.15-16.50.38:143][  0]LogWindows: EnumDisplayDevices:
+[2021.03.15-16.50.38:143][  0]LogWindows:    0. 'Intel(R) HD Graphics 620' (P:1 D:1)
+[2021.03.15-16.50.38:144][  0]LogWindows:    1. 'Intel(R) HD Graphics 620' (P:0 D:0)
+[2021.03.15-16.50.38:144][  0]LogWindows:    2. 'Intel(R) HD Graphics 620' (P:0 D:0)
+[2021.03.15-16.50.38:144][  0]LogWindows: DebugString: PrimaryIsNotTheChoosenAdapter PrimaryIsNotTheChoosenAdapter PrimaryIsNotTheChoosenAdapter FoundDriverCount:0 
+[2021.03.15-16.50.38:144][  0]LogD3D11RHI:     Adapter Name: AMD Radeon (TM) R5 M330
+[2021.03.15-16.50.38:144][  0]LogD3D11RHI:   Driver Version: Unknown (internal:Unknown, unified:Unknown)
+[2021.03.15-16.50.38:144][  0]LogD3D11RHI:      Driver Date: Unknown
+[2021.03.15-16.50.38:144][  0]LogRHI: Texture pool is 1213 MB (70% of 1733 MB)
+[2021.03.15-16.50.38:231][  0]LogD3D11RHI: RHI has support for 64 bit atomics
+[2021.03.15-16.50.38:231][  0]LogD3D11RHI: Async texture creation enabled
+[2021.03.15-16.50.38:231][  0]LogD3D11RHI: Array index from any shader is supported
+[2021.03.15-16.50.38:256][  0]LogD3D11RHI: GPU Timing Frequency: 27.000000 (Debug: 2 1)
+[2021.03.15-16.50.38:695][  0]LogTargetPlatformManager: Display: Loaded TargetPlatform 'AllDesktop'
+[2021.03.15-16.50.38:728][  0]LogTargetPlatformManager: Display: Loaded TargetPlatform 'Android'
+[2021.03.15-16.50.38:728][  0]LogTargetPlatformManager: Display: Loaded TargetPlatform 'Android_ASTC'
+[2021.03.15-16.50.38:728][  0]LogTargetPlatformManager: Display: Loaded TargetPlatform 'Android_DXT'
+[2021.03.15-16.50.38:728][  0]LogTargetPlatformManager: Display: Loaded TargetPlatform 'Android_ETC2'
+[2021.03.15-16.50.38:728][  0]LogTargetPlatformManager: Display: Loaded TargetPlatform 'AndroidClient'
+[2021.03.15-16.50.38:728][  0]LogTargetPlatformManager: Display: Loaded TargetPlatform 'Android_ASTCClient'
+[2021.03.15-16.50.38:728][  0]LogTargetPlatformManager: Display: Loaded TargetPlatform 'Android_DXTClient'
+[2021.03.15-16.50.38:728][  0]LogTargetPlatformManager: Display: Loaded TargetPlatform 'Android_ETC2Client'
+[2021.03.15-16.50.38:728][  0]LogTargetPlatformManager: Display: Loaded TargetPlatform 'Android_Multi'
+[2021.03.15-16.50.38:728][  0]LogTargetPlatformManager: Display: Loaded TargetPlatform 'Android_MultiClient'
+[2021.03.15-16.50.38:760][  0]LogTargetPlatformManager: Display: Loaded TargetPlatform 'IOSClient'
+[2021.03.15-16.50.38:760][  0]LogTargetPlatformManager: Display: Loaded TargetPlatform 'IOS'
+[2021.03.15-16.50.38:772][  0]LogTargetPlatformManager: Display: Loaded TargetPlatform 'Linux'
+[2021.03.15-16.50.38:782][  0]LogTargetPlatformManager: Display: Loaded TargetPlatform 'LinuxNoEditor'
+[2021.03.15-16.50.38:795][  0]LogTargetPlatformManager: Display: Loaded TargetPlatform 'LinuxClient'
+[2021.03.15-16.50.38:806][  0]LogTargetPlatformManager: Display: Loaded TargetPlatform 'LinuxServer'
+[2021.03.15-16.50.38:818][  0]LogTargetPlatformManager: Display: Loaded TargetPlatform 'LinuxAArch64NoEditor'
+[2021.03.15-16.50.38:830][  0]LogTargetPlatformManager: Display: Loaded TargetPlatform 'LinuxAArch64Client'
+[2021.03.15-16.50.38:841][  0]LogTargetPlatformManager: Display: Loaded TargetPlatform 'LinuxAArch64Server'
+[2021.03.15-16.50.38:871][  0]LogTargetPlatformManager: Display: Loaded TargetPlatform 'Lumin'
+[2021.03.15-16.50.38:871][  0]LogTargetPlatformManager: Display: Loaded TargetPlatform 'LuminClient'
+[2021.03.15-16.50.38:888][  0]LogTargetPlatformManager: Display: Loaded TargetPlatform 'TVOSClient'
+[2021.03.15-16.50.38:888][  0]LogTargetPlatformManager: Display: Loaded TargetPlatform 'TVOS'
+[2021.03.15-16.50.38:908][  0]LogTargetPlatformManager: Display: Loaded TargetPlatform 'WindowsNoEditor'
+[2021.03.15-16.50.38:922][  0]LogTargetPlatformManager: Display: Loaded TargetPlatform 'Windows'
+[2021.03.15-16.50.38:933][  0]LogTargetPlatformManager: Display: Loaded TargetPlatform 'WindowsClient'
+[2021.03.15-16.50.38:946][  0]LogTargetPlatformManager: Display: Loaded TargetPlatform 'WindowsServer'
+[2021.03.15-16.50.38:946][  0]LogTargetPlatformManager: Display: Building Assets For Windows
+[2021.03.15-16.50.38:957][  0]LogAudioDebug: Display: Lib vorbis DLL was dynamically loaded.
+[2021.03.15-16.50.39:028][  0]LogShaderCompilers: Guid format shader working directory is -6 characters bigger than the processId version (C:/Users/Korisnik/GameDev/Unreal projects/FirstProject/Intermediate/Shaders/WorkingDirectory/13552/).
+[2021.03.15-16.50.39:029][  0]LogShaderCompilers: Cleaned the shader compiler working directory 'C:/Users/Korisnik/AppData/Local/Temp/UnrealShaderWorkingDir/B3FC03154D0BC9D061A4B0A111B73230/'.
+[2021.03.15-16.50.39:029][  0]LogXGEController: Cannot use XGE Controller as Incredibuild is not installed on this machine.
+[2021.03.15-16.50.39:029][  0]LogShaderCompilers: Cannot use XGE Shader Compiler as Incredibuild is not installed on this machine.
+[2021.03.15-16.50.39:029][  0]LogShaderCompilers: Display: Using Local Shader Compiler.
+[2021.03.15-16.50.40:259][  0]LogDerivedDataCache: Display: Max Cache Size: 512 MB
+[2021.03.15-16.50.40:342][  0]LogDerivedDataCache: Loaded boot cache 0.08s 76MB C:/Users/Korisnik/AppData/Local/UnrealEngine/4.25/DerivedDataCache/Boot.ddc.
+[2021.03.15-16.50.40:342][  0]LogDerivedDataCache: Display: Loaded Boot cache: C:/Users/Korisnik/AppData/Local/UnrealEngine/4.25/DerivedDataCache/Boot.ddc
+[2021.03.15-16.50.40:342][  0]LogDerivedDataCache: FDerivedDataBackendGraph:  Pak pak cache file C:/Users/Korisnik/GameDev/Unreal projects/FirstProject/DerivedDataCache/DDC.ddp not found, will not use a pak cache.
+[2021.03.15-16.50.40:342][  0]LogDerivedDataCache: Unable to find inner node Pak for hierarchical cache Hierarchy.
+[2021.03.15-16.50.40:342][  0]LogDerivedDataCache: FDerivedDataBackendGraph:  CompressedPak pak cache file C:/Users/Korisnik/GameDev/Unreal projects/FirstProject/DerivedDataCache/Compressed.ddp not found, will not use a pak cache.
+[2021.03.15-16.50.40:342][  0]LogDerivedDataCache: Unable to find inner node CompressedPak for hierarchical cache Hierarchy.
+[2021.03.15-16.50.40:356][  0]LogDerivedDataCache: Display: Pak cache opened for reading ../../../Engine/DerivedDataCache/Compressed.ddp.
+[2021.03.15-16.50.40:356][  0]LogDerivedDataCache: FDerivedDataBackendGraph:  EnterprisePak pak cache file ../../../Enterprise/DerivedDataCache/Compressed.ddp not found, will not use a pak cache.
+[2021.03.15-16.50.40:356][  0]LogDerivedDataCache: Unable to find inner node EnterprisePak for hierarchical cache Hierarchy.
+[2021.03.15-16.50.40:358][  0]LogDerivedDataCache: Using Local data cache path C:/Users/Korisnik/AppData/Local/UnrealEngine/Common/DerivedDataCache: Writable
+[2021.03.15-16.50.40:358][  0]LogDerivedDataCache: Shared data cache path not found in *engine.ini, will not use an Shared cache.
+[2021.03.15-16.50.40:358][  0]LogDerivedDataCache: Unable to find inner node Shared for hierarchical cache Hierarchy.
+[2021.03.15-16.50.40:479][  0]LogSlate: Using FreeType 2.10.0
+[2021.03.15-16.50.40:480][  0]LogSlate: SlateFontServices - WITH_FREETYPE: 1, WITH_HARFBUZZ: 1
+[2021.03.15-16.50.40:529][  0]LogAssetRegistry: FAssetRegistry took 0.0031 seconds to start up
+[2021.03.15-16.50.41:013][  0]LogInit: Selected Device Profile: [Windows]
+[2021.03.15-16.50.41:208][  0]LogMeshReduction: Using QuadricMeshReduction for automatic static mesh reduction
+[2021.03.15-16.50.41:208][  0]LogMeshReduction: Using SimplygonMeshReduction for automatic skeletal mesh reduction
+[2021.03.15-16.50.41:208][  0]LogMeshReduction: Using ProxyLODMeshReduction for automatic mesh merging
+[2021.03.15-16.50.41:208][  0]LogMeshReduction: No distributed automatic mesh merging module available
+[2021.03.15-16.50.41:208][  0]LogMeshMerging: No distributed automatic mesh merging module available
+[2021.03.15-16.50.41:229][  0]LogNetVersion: FirstProject 1.0.0, NetCL: 13144385, EngineNetVer: 14, GameNetVer: 0 (Checksum: 2715882713)
+[2021.03.15-16.50.41:954][  0]LogAISub: UAISubsystem::UAISubsystem AISubsystem (000001CB347CDBC0), frame # 0
+[2021.03.15-16.50.41:954][  0]LogAISub: UAISubsystem::UAISubsystem AIPerceptionSystem (000001CB34723740), frame # 0
+[2021.03.15-16.50.41:956][  0]LogAISub: UAISubsystem::UAISubsystem EnvQueryManager (000001CB34798800), frame # 0
+[2021.03.15-16.50.42:077][  0]LogPackageLocalizationCache: Processed 19 localized package path(s) for 1 prioritized culture(s) in 0.112942 seconds
+[2021.03.15-16.50.42:084][  0]LogUObjectArray: 15917 objects as part of root set at end of initial load.
+[2021.03.15-16.50.42:085][  0]LogUObjectAllocator: 3965568 out of 0 bytes used by permanent object pool.
+[2021.03.15-16.50.42:085][  0]LogUObjectArray: CloseDisregardForGC: 0/0 objects in disregard for GC pool
+[2021.03.15-16.50.42:717][  0]LogTcpMessaging: Initializing TcpMessaging bridge
+[2021.03.15-16.50.42:723][  0]LogUdpMessaging: Initializing bridge on interface 0.0.0.0:0 to multicast group 230.0.0.1:6666.
+[2021.03.15-16.50.42:915][  0]SourceControl: Source control is disabled
+[2021.03.15-16.50.42:915][  0]SourceControl: Source control is disabled
+[2021.03.15-16.50.42:920][  0]SourceControl: Source control is disabled
+[2021.03.15-16.50.42:924][  0]SourceControl: Source control is disabled
+[2021.03.15-16.50.42:935][  0]SourceControl: Source control is disabled
+[2021.03.15-16.50.43:321][  0]LogAndroidPermission: UAndroidPermissionCallbackProxy::GetInstance
+[2021.03.15-16.50.43:351][  0]LogAudioCaptureCore: Display: No Audio Capture implementations found. Audio input will be silent.
+[2021.03.15-16.50.43:351][  0]LogAudioCaptureCore: Display: No Audio Capture implementations found. Audio input will be silent.
+[2021.03.15-16.50.43:421][  0]LogOcInput: OculusInput pre-init called
+[2021.03.15-16.50.43:435][  0]LogWindows: Failed to load 'OVRPlugin.dll' (GetLastError=126)
+[2021.03.15-16.50.43:435][  0]LogWindows: File 'OVRPlugin.dll' does not exist
+[2021.03.15-16.50.43:517][  0]LogEngine: Initializing Engine...
+[2021.03.15-16.50.43:518][  0]LogHMD: Failed to initialize OpenVR with code 110
+[2021.03.15-16.50.43:518][  0]LogMagicLeap: Warning: VR disabled because ZI is not enabled.  To enable, in the editor, Edit -> Project Settings -> Plugins -> Magic Leap Plugin -> Enable Zero Iteration
+[2021.03.15-16.50.43:519][  0]LogStats: UGameplayTagsManager::InitializeManager -  0.000 s
+[2021.03.15-16.50.43:707][  0]LogInit: Initializing FReadOnlyCVARCache
+[2021.03.15-16.50.43:720][  0]LogAIModule: Creating AISystem for world Untitled
+[2021.03.15-16.50.43:720][  0]LogAISub: UAISubsystem::UAISubsystem EnvQueryManager (000001CB39409200), frame # 0
+[2021.03.15-16.50.43:720][  0]LogAISub: UAISubsystem::UAISubsystem AIPerceptionSystem (000001CB39416480), frame # 0
+[2021.03.15-16.50.43:759][  0]LogAudioMixer: Display: Audio Mixer Platform Settings:
+[2021.03.15-16.50.43:759][  0]LogAudioMixer: Display: 	Sample Rate:						  48000
+[2021.03.15-16.50.43:759][  0]LogAudioMixer: Display: 	Callback Buffer Frame Size Requested: 1024
+[2021.03.15-16.50.43:759][  0]LogAudioMixer: Display: 	Callback Buffer Frame Size To Use:	  1024
+[2021.03.15-16.50.43:759][  0]LogAudioMixer: Display: 	Number of buffers to queue:			  2
+[2021.03.15-16.50.43:759][  0]LogAudioMixer: Display: 	Max Channels (voices):				  32
+[2021.03.15-16.50.43:759][  0]LogAudioMixer: Display: 	Number of Async Source Workers:		  0
+[2021.03.15-16.50.43:759][  0]LogAudio: Display: AudioDevice MaxSources: 32
+[2021.03.15-16.50.43:759][  0]LogAudio: Display: Using built-in audio occlusion.
+[2021.03.15-16.50.43:759][  0]LogAudioMixer: Display: Initializing audio mixer.
+[2021.03.15-16.50.43:774][  0]LogAudioMixer: Display: 0: FrontLeft
+[2021.03.15-16.50.43:774][  0]LogAudioMixer: Display: 1: FrontRight
+[2021.03.15-16.50.43:830][  0]LogAudioMixer: Display: Using Audio Device Speakers (2- Realtek High Definition Audio)
+[2021.03.15-16.50.43:835][  0]LogAudioMixer: Display: Initializing Sound Submixes...
+[2021.03.15-16.50.43:838][  0]LogAudioMixer: Display: Creating Master Submix 'MasterSubmixDefault'
+[2021.03.15-16.50.43:838][  0]LogAudioMixer: Display: Creating Master Submix 'MasterReverbSubmixDefault'
+[2021.03.15-16.50.43:839][  0]LogAudioMixer: Display: Creating Master Submix 'MasterEQSubmixDefault'
+[2021.03.15-16.50.43:841][  0]LogInit: FAudioDevice initialized.
+[2021.03.15-16.50.43:841][  0]LogNetVersion: Set ProjectVersion to 1.0.0.0. Version Checksum will be recalculated on next use.
+[2021.03.15-16.50.44:089][  0]LogDerivedDataCache: Saved boot cache 0.25s 76MB C:/Users/Korisnik/AppData/Local/UnrealEngine/4.25/DerivedDataCache/Boot.ddc.
+[2021.03.15-16.50.44:095][  0]LogInit: Texture streaming: Enabled
+[2021.03.15-16.50.44:118][  0]LogEngineSessionManager: EngineSessionManager initialized
+[2021.03.15-16.50.44:118][  0]LogEditorSessionSummary: Verbose: Initializing EditorSessionSummaryWriter for editor session tracking
+[2021.03.15-16.50.44:121][  0]LogEditorSessionSummary: EditorSessionSummaryWriter initialized
+[2021.03.15-16.50.44:198][  0]LogInit: Transaction tracking system initialized
+[2021.03.15-16.50.44:229][  0]BlueprintLog: New page: Editor Load
+[2021.03.15-16.50.44:337][  0]LocalizationService: Localization service is disabled
+[2021.03.15-16.50.44:684][  0]LogCook: Display: Max memory allowance for cook 16384mb min free memory 0mb
+[2021.03.15-16.50.44:684][  0]LogCook: Display: Mobile HDR setting 1
+[2021.03.15-16.50.44:922][  0]LogFileCache: Scanning file cache for directory 'C:/Users/Korisnik/GameDev/Unreal projects/FirstProject/Content/' took 0.04s
+[2021.03.15-16.50.45:337][  0]SourceControl: Source control is disabled
+[2021.03.15-16.50.45:337][  0]LogUnrealEdMisc: Loading editor; pre map load, took 9.571
+[2021.03.15-16.50.45:337][  0]Cmd: MAP LOAD FILE="C:/Users/Korisnik/GameDev/Unreal projects/FirstProject/Content/Maps/SunTemple.umap" TEMPLATE=0 SHOWPROGRESS=1 FEATURELEVEL=3
+[2021.03.15-16.50.45:338][  0]LightingResults: New page: Lighting Build
+[2021.03.15-16.50.45:339][  0]LogWorld: UWorld::CleanupWorld for Untitled, bSessionEnded=true, bCleanupResources=true
+[2021.03.15-16.50.45:339][  0]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2021.03.15-16.50.45:339][  0]MapCheck: New page: Map Check
+[2021.03.15-16.50.45:339][  0]LightingResults: New page: Lighting Build
+[2021.03.15-16.50.45:349][  0]LogAISub: UAISubsystem::~UAISubsystem EnvQueryManager (000001CB39409200), frame # 0
+[2021.03.15-16.50.45:349][  0]LogAISub: UAISubsystem::~UAISubsystem AIPerceptionSystem (000001CB39416480), frame # 0
+[2021.03.15-16.50.45:351][  0]LogUObjectHash: Compacting FUObjectHashTables data took   1.39ms
+[2021.03.15-16.50.52:910][  0]LogAIModule: Creating AISystem for world SunTemple
+[2021.03.15-16.50.52:913][  0]LogAISub: UAISubsystem::UAISubsystem EnvQueryManager (000001CB299E5200), frame # 0
+[2021.03.15-16.50.52:913][  0]LogAISub: UAISubsystem::UAISubsystem AIPerceptionSystem (000001CB29982D40), frame # 0
+[2021.03.15-16.50.53:158][  0]LogEditorServer: Finished looking for orphan Actors (0.000 secs)
+[2021.03.15-16.50.53:241][  0]LogUObjectHash: Compacting FUObjectHashTables data took   1.81ms
+[2021.03.15-16.50.53:246][  0]Cmd: MAP CHECKDEP NOCLEARLOG
+[2021.03.15-16.50.53:248][  0]MapCheck: Map check complete: 0 Error(s), 0 Warning(s), took 1,282ms to complete.
+[2021.03.15-16.50.53:248][  0]LogFileHelpers: Loading map 'SunTemple' took 7.911
+[2021.03.15-16.50.53:277][  0]LogUnrealEdMisc: Total Editor Startup Time, took 17.511
+[2021.03.15-16.50.54:434][  0]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2021.03.15-16.50.54:470][  0]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2021.03.15-16.50.54:480][  0]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2021.03.15-16.50.54:492][  0]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2021.03.15-16.50.54:564][  0]LogCollectionManager: Loaded 0 collections in 0.002567 seconds
+[2021.03.15-16.50.54:921][  0]LogFileCache: Scanning file cache for directory 'C:/Users/Korisnik/GameDev/Unreal projects/FirstProject/Saved/Collections/' took 0.00s
+[2021.03.15-16.50.54:921][  0]LogFileCache: Scanning file cache for directory 'C:/Users/Korisnik/GameDev/Unreal projects/FirstProject/Content/Developers/Korisnik/Collections/' took 0.00s
+[2021.03.15-16.50.54:921][  0]LogFileCache: Scanning file cache for directory 'C:/Users/Korisnik/GameDev/Unreal projects/FirstProject/Content/Collections/' took 0.00s
+[2021.03.15-16.50.54:921][  0]LogContentBrowser: Native class hierarchy populated in 0.0312 seconds. Added 3434 classes and 823 folders.
+[2021.03.15-16.50.55:004][  0]LogContentBrowser: Native class hierarchy updated for 'WidgetCarousel' in 0.0005 seconds. Added 0 classes and 0 folders.
+[2021.03.15-16.50.57:871][  0]LogContentBrowser: Native class hierarchy updated for 'AddContentDialog' in 0.0005 seconds. Added 0 classes and 0 folders.
+[2021.03.15-16.50.57:962][  0]LogContentBrowser: Native class hierarchy updated for 'SceneOutliner' in 0.0005 seconds. Added 2 classes and 0 folders.
+[2021.03.15-16.50.59:333][  0]LogSlate: Took 0.000271 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-Regular.ttf' (155K)
+[2021.03.15-16.50.59:340][  0]LogSlate: Took 0.000182 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-Bold.ttf' (160K)
+[2021.03.15-16.50.59:396][  0]LogSlate: Took 0.025621 seconds to synchronously load lazily loaded font '../../../Engine/Content/Editor/Slate/Fonts/FontAwesome.ttf' (139K)
+[2021.03.15-16.50.59:836][  0]LogRenderer: Reallocating scene render targets to support 948x432 Format 10 NumSamples 1 (Frame:1).
+[2021.03.15-16.51.00:278][  0]LogContentBrowser: Native class hierarchy updated for 'HierarchicalLODOutliner' in 0.0004 seconds. Added 0 classes and 0 folders.
+[2021.03.15-16.51.00:278][  0]LogLoad: (Engine Initialization) Total time: 24.51 seconds
+[2021.03.15-16.51.00:278][  0]LogLoad: (Engine Initialization) Total Blueprint compile time: 0.00 seconds
+[2021.03.15-16.51.00:356][  0]LogAssetRegistry: Asset discovery search completed in 19.8271 seconds
+[2021.03.15-16.51.00:361][  0]LogCollectionManager: Fixed up redirectors for 0 collections in 0.000002 seconds (updated 0 objects)
+[2021.03.15-16.51.00:377][  0]LogContentStreaming: Texture pool size now 1000 MB
+[2021.03.15-16.51.00:499][  0]LogSlate: Took 0.039083 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-Light.ttf' (167K)
+[2021.03.15-16.51.01:445][ 19]LogSlate: Took 0.000206 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-Light.ttf' (167K)
+[2021.03.15-16.51.03:908][104]LogAssetEditorSubsystem: Opening Asset editor for Blueprint /Game/Characters/MainCharacter_BP.MainCharacter_BP
+[2021.03.15-16.51.05:912][104]LogContentBrowser: Native class hierarchy updated for 'BlueprintGraph' in 0.0010 seconds. Added 125 classes and 0 folders.
+[2021.03.15-16.51.07:650][104]LogAssetEditorSubsystem: Opening Asset editor for Blueprint /Game/Blueprints/CritterGameMode_BP.CritterGameMode_BP
+[2021.03.15-16.51.08:151][104]LogAssetEditorSubsystem: Opening Asset editor for Blueprint /Game/GameplayMechanics/FloorSwitch_BP.FloorSwitch_BP
+[2021.03.15-17.41.41:127][317]LogSlate: Window 'FloorSwitch_BP' being destroyed
+[2021.03.15-17.47.39:605][519]LogHotReload: New module detected: UE4Editor-FirstProject-0015.dll
+[2021.03.15-17.47.44:376][535]LogHotReload: Starting Hot-Reload from IDE
+[2021.03.15-17.47.45:338][535]LogClass: Could not find existing class FloorSwitch in package /Script/FirstProject for HotReload, assuming new class
+[2021.03.15-17.47.45:341][535]LogClass: Function OnOverlapBegin is new.
+[2021.03.15-17.47.45:342][535]LogClass: Function OnOverlapEnd is new.
+[2021.03.15-17.47.45:443][535]LogHotReload: Re-instancing FloorSwitch after hot-reload.
+[2021.03.15-17.47.47:393][535]LogContentBrowser: Native class hierarchy updated for 'FirstProject' in 0.0409 seconds. Added 7 classes and 2 folders.
+[2021.03.15-17.47.47:444][535]Display: HotReload successful (1 functions remapped  0 scriptstructs remapped)
+[2021.03.15-17.47.50:373][535]LogContentBrowser: Native class hierarchy populated in 0.0380 seconds. Added 3434 classes and 823 folders.
+[2021.03.15-17.47.50:757][535]Display: HotReload took  6.4s.
+[2021.03.15-17.47.54:312][574]LogWorld: UWorld::CleanupWorld for World_1, bSessionEnded=true, bCleanupResources=true
+[2021.03.15-17.47.54:312][574]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2021.03.15-17.47.56:477][614]LogActorComponent: UnregisterComponent: (/Engine/Transient.EditorFloorComp) Not registered. Aborting.
+[2021.03.15-17.47.56:478][614]LogWorld: UWorld::CleanupWorld for World_2, bSessionEnded=true, bCleanupResources=true
+[2021.03.15-17.47.56:478][614]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2021.03.15-17.48.00:070][723]LogActorComponent: UnregisterComponent: (/Engine/Transient.EditorFloorComp) Not registered. Aborting.
+[2021.03.15-17.48.00:070][723]LogWorld: UWorld::CleanupWorld for World_3, bSessionEnded=true, bCleanupResources=true
+[2021.03.15-17.48.00:070][723]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2021.03.15-17.48.00:400][723]LogAssetEditorSubsystem: Opening Asset editor for Blueprint /Game/GameplayMechanics/FloorSwitch_BP.FloorSwitch_BP
+[2021.03.15-17.48.02:781][723]LogSlate: Took 0.041478 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-BoldCondensed.ttf' (158K)
+[2021.03.15-17.48.09:573][906]LogSlate: Window 'FloorSwitch_BP' being destroyed
+[2021.03.15-17.49.06:484][698]LogUObjectHash: Compacting FUObjectHashTables data took   7.64ms
+[2021.03.15-17.49.06:545][698]LogFileHelpers: Editor autosave (incl. sublevels) for '/Game/Maps/SunTemple' took 0.399
+[2021.03.15-17.49.06:569][698]OBJ SavePackage: Generating thumbnails for [1] asset(s) in package [/Game/GameplayMechanics/FloorSwitch_BP] ([1] browsable assets)...
+[2021.03.15-17.49.06:659][698]OBJ SavePackage:     Rendered thumbnail for [Blueprint /Game/GameplayMechanics/FloorSwitch_BP.FloorSwitch_BP]
+[2021.03.15-17.49.06:659][698]OBJ SavePackage: Finished generating thumbnails for package [/Game/GameplayMechanics/FloorSwitch_BP]
+[2021.03.15-17.49.06:982][698]LogSavePackage: Moving 'C:/Users/Korisnik/GameDev/Unreal projects/FirstProject/Saved/FloorSwitch_BP_Auto1C3304ADB4CF9D7EFA16A71B2634B4CE5.tmp' to 'C:/Users/Korisnik/GameDev/Unreal projects/FirstProject/Saved/Autosaves/Game/GameplayMechanics/FloorSwitch_BP_Auto1.uasset'
+[2021.03.15-17.49.07:044][698]LogFileHelpers: Auto-saving content packages took 0.497
+[2021.03.15-17.52.33:483][615]LogSlate: Took 0.035242 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-Italic.ttf' (157K)
+[2021.03.15-17.55.49:374][583]BlueprintLog: New page: Compile FloorSwitch_BP
+[2021.03.15-17.55.51:995][583]LogUObjectHash: Compacting FUObjectHashTables data took   3.85ms
+[2021.03.15-17.55.52:157][583]LogSlate: Took 0.035429 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/DroidSansMono.ttf' (77K)
+[2021.03.15-17.55.54:923][660]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/GameplayMechanics/FloorSwitch_BP" FILE="C:/Users/Korisnik/GameDev/Unreal projects/FirstProject/Content/GameplayMechanics/FloorSwitch_BP.uasset" SILENT=true
+[2021.03.15-17.55.55:053][660]LogSavePackage: Moving 'C:/Users/Korisnik/GameDev/Unreal projects/FirstProject/Saved/FloorSwitch_BP8F8E89CC435DBF17ED6656B1D168A9A9.tmp' to 'C:/Users/Korisnik/GameDev/Unreal projects/FirstProject/Content/GameplayMechanics/FloorSwitch_BP.uasset'
+[2021.03.15-17.55.55:094][660]AssetCheck: New page: Asset Save: FloorSwitch_BP
+[2021.03.15-17.55.55:094][660]LogContentValidation: Display: Validating Blueprint /Game/GameplayMechanics/FloorSwitch_BP.FloorSwitch_BP
+[2021.03.15-17.55.59:434][859]LogTemp: Repeating last play command: Selected Viewport
+[2021.03.15-17.55.59:613][859]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2021.03.15-17.55.59:706][859]PIE: New page: PIE session: SunTemple (15.03.2021. 19:55:59)
+[2021.03.15-17.55.59:925][859]LogOnline: OSS: Creating online subsystem instance for: NULL
+[2021.03.15-17.55.59:935][859]LogOnline: OSS: TryLoadSubsystemAndSetDefault: Loaded subsystem for module [NULL]
+[2021.03.15-17.55.59:948][859]LogPlayLevel: Creating play world package: /Game/Maps/UEDPIE_0_SunTemple
+[2021.03.15-17.56.00:126][859]LogPlayLevel: PIE: StaticDuplicateObject took: (0.177083s)
+[2021.03.15-17.56.00:147][859]LogAIModule: Creating AISystem for world SunTemple
+[2021.03.15-17.56.00:147][859]LogAISub: UAISubsystem::UAISubsystem EnvQueryManager (000001CB8E687E00), frame # 28859
+[2021.03.15-17.56.00:147][859]LogAISub: UAISubsystem::UAISubsystem AIPerceptionSystem (000001CBA7539E40), frame # 28859
+[2021.03.15-17.56.00:147][859]LogPlayLevel: PIE: World Init took: (0.016041s)
+[2021.03.15-17.56.00:162][859]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/Maps/SunTemple.SunTemple to /Game/Maps/UEDPIE_0_SunTemple.SunTemple (0.215255s)
+[2021.03.15-17.56.00:199][859]LogUObjectHash: Compacting FUObjectHashTables data took   2.43ms
+[2021.03.15-17.56.00:246][859]LogAudioMixer: Display: Audio Mixer Platform Settings:
+[2021.03.15-17.56.00:246][859]LogAudioMixer: Display: 	Sample Rate:						  48000
+[2021.03.15-17.56.00:246][859]LogAudioMixer: Display: 	Callback Buffer Frame Size Requested: 1024
+[2021.03.15-17.56.00:246][859]LogAudioMixer: Display: 	Callback Buffer Frame Size To Use:	  1024
+[2021.03.15-17.56.00:247][859]LogAudioMixer: Display: 	Number of buffers to queue:			  2
+[2021.03.15-17.56.00:247][859]LogAudioMixer: Display: 	Max Channels (voices):				  32
+[2021.03.15-17.56.00:247][859]LogAudioMixer: Display: 	Number of Async Source Workers:		  0
+[2021.03.15-17.56.00:247][859]LogAudio: Display: AudioDevice MaxSources: 32
+[2021.03.15-17.56.00:247][859]LogAudio: Display: Using built-in audio occlusion.
+[2021.03.15-17.56.00:247][859]LogAudioMixer: Display: Initializing audio mixer.
+[2021.03.15-17.56.00:285][859]LogAudioMixer: Display: 0: FrontLeft
+[2021.03.15-17.56.00:285][859]LogAudioMixer: Display: 1: FrontRight
+[2021.03.15-17.56.00:348][859]LogAudioMixer: Display: Using Audio Device Speakers (2- Realtek High Definition Audio)
+[2021.03.15-17.56.00:348][859]LogAudioMixer: Display: Initializing Sound Submixes...
+[2021.03.15-17.56.00:348][859]LogAudioMixer: Display: Creating Master Submix 'MasterSubmixDefault'
+[2021.03.15-17.56.00:348][859]LogAudioMixer: Display: Creating Master Submix 'MasterReverbSubmixDefault'
+[2021.03.15-17.56.00:352][859]LogAudioMixer: Display: Creating Master Submix 'MasterEQSubmixDefault'
+[2021.03.15-17.56.00:372][859]LogInit: FAudioDevice initialized.
+[2021.03.15-17.56.00:500][859]LogLoad: Game class is 'CritterGameMode_BP_C'
+[2021.03.15-17.56.00:702][859]LogWorld: Bringing World /Game/Maps/UEDPIE_0_SunTemple.SunTemple up for play (max tick rate 60) at 2021.03.15-18.56.00
+[2021.03.15-17.56.00:724][859]LogWorld: Bringing up level for play took: 0.042027
+[2021.03.15-17.56.00:772][859]LogOnline: OSS: Creating online subsystem instance for: :Context_8
+[2021.03.15-17.56.01:653][859]LogContentBrowser: Native class hierarchy updated for 'MovieSceneCapture' in 0.0009 seconds. Added 20 classes and 0 folders.
+[2021.03.15-17.56.01:874][859]PIE: Server logged in
+[2021.03.15-17.56.01:884][859]PIE: Play in editor total start time 2,413 seconds.
+[2021.03.15-17.56.06:854][ 10]LogTemp: Warning: On Overlap Begin
+[2021.03.15-17.56.08:773][ 82]LogTemp: Warning: On Overlap End
+[2021.03.15-17.56.10:063][131]LogTemp: Warning: On Overlap Begin
+[2021.03.15-17.56.11:513][185]LogTemp: Warning: On Overlap End
+[2021.03.15-17.56.12:827][233]LogTemp: Warning: On Overlap Begin
+[2021.03.15-17.56.14:167][278]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2021.03.15-17.56.14:168][278]LogWorld: BeginTearingDown for /Game/Maps/UEDPIE_0_SunTemple
+[2021.03.15-17.56.14:203][278]LogWorld: UWorld::CleanupWorld for SunTemple, bSessionEnded=true, bCleanupResources=true
+[2021.03.15-17.56.14:218][278]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2021.03.15-17.56.14:281][278]LogPlayLevel: Display: Shutting down PIE online subsystems
+[2021.03.15-17.56.14:311][278]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2021.03.15-17.56.14:532][278]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2021.03.15-17.56.14:598][278]LogAISub: UAISubsystem::~UAISubsystem AIPerceptionSystem (000001CBA7539E40), frame # 29278
+[2021.03.15-17.56.14:598][278]LogAISub: UAISubsystem::~UAISubsystem EnvQueryManager (000001CB8E687E00), frame # 29278
+[2021.03.15-17.56.14:699][278]LogUObjectHash: Compacting FUObjectHashTables data took   4.53ms
+[2021.03.15-17.56.14:791][279]LogPlayLevel: Display: Destroying online subsystem :Context_8
+[2021.03.15-17.59.14:152][891]LogEditorViewport: Clicking on Actor (LMB): SphereReflectionCapture (SphereReflectionCapture42)
+[2021.03.15-17.59.42:357][ 76]LogUObjectHash: Compacting FUObjectHashTables data took   3.34ms
+[2021.03.15-17.59.42:409][ 76]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Maps/SunTemple" FILE="C:/Users/Korisnik/GameDev/Unreal projects/FirstProject/Saved/Autosaves/Game/Maps/SunTemple_Auto2.umap" SILENT=true AUTOSAVING=true KEEPDIRTY=false
+[2021.03.15-17.59.43:078][ 76]LogSavePackage: Moving 'C:/Users/Korisnik/GameDev/Unreal projects/FirstProject/Saved/SunTemple_Auto2EF94BBB2472CFF1EB3F33ABD3A5F886E.tmp' to 'C:/Users/Korisnik/GameDev/Unreal projects/FirstProject/Saved/Autosaves/Game/Maps/SunTemple_Auto2.umap'
+[2021.03.15-17.59.43:142][ 76]LogFileHelpers: Editor autosave (incl. sublevels) for '/Game/Maps/SunTemple' took 0.828
+[2021.03.15-17.59.43:142][ 76]LogFileHelpers: Editor autosave (incl. sublevels) for all levels took 0.828
+[2021.03.15-18.05.46:796][177]LogHotReload: New module detected: UE4Editor-FirstProject-0016.dll
+[2021.03.15-18.05.53:530][198]LogHotReload: Starting Hot-Reload from IDE
+[2021.03.15-18.05.53:859][198]LogClass: Could not find existing class FloorSwitch in package /Script/FirstProject for HotReload, assuming new class
+[2021.03.15-18.05.53:860][198]LogClass: Function OnOverlapBegin is new.
+[2021.03.15-18.05.53:860][198]LogClass: Function OnOverlapEnd is new.
+[2021.03.15-18.05.53:882][198]LogHotReload: Re-instancing FloorSwitch after hot-reload.
+[2021.03.15-18.05.54:030][198]LogContentBrowser: Native class hierarchy updated for 'FirstProject' in 0.0005 seconds. Added 7 classes and 2 folders.
+[2021.03.15-18.05.54:037][198]Display: HotReload successful (1 functions remapped  0 scriptstructs remapped)
+[2021.03.15-18.05.54:329][198]LogContentBrowser: Native class hierarchy populated in 0.0191 seconds. Added 3434 classes and 823 folders.
+[2021.03.15-18.05.54:340][198]Display: HotReload took  0.8s.
+[2021.03.15-18.16.37:048][  5]LogUObjectHash: Compacting FUObjectHashTables data took  13.75ms
+[2021.03.15-18.16.37:053][  5]LogFileHelpers: Editor autosave (incl. sublevels) for '/Game/Maps/SunTemple' took 0.257
+[2021.03.15-18.16.37:056][  5]OBJ SavePackage: Generating thumbnails for [1] asset(s) in package [/Game/GameplayMechanics/FloorSwitch_BP] ([1] browsable assets)...
+[2021.03.15-18.16.37:118][  5]OBJ SavePackage:     Rendered thumbnail for [Blueprint /Game/GameplayMechanics/FloorSwitch_BP.FloorSwitch_BP]
+[2021.03.15-18.16.37:118][  5]OBJ SavePackage: Finished generating thumbnails for package [/Game/GameplayMechanics/FloorSwitch_BP]
+[2021.03.15-18.16.37:257][  5]LogSavePackage: Moving 'C:/Users/Korisnik/GameDev/Unreal projects/FirstProject/Saved/FloorSwitch_BP_Auto3E1D997584D4AF4EC47ADC3A9E8B2AE7F.tmp' to 'C:/Users/Korisnik/GameDev/Unreal projects/FirstProject/Saved/Autosaves/Game/GameplayMechanics/FloorSwitch_BP_Auto3.uasset'
+[2021.03.15-18.16.37:259][  5]LogFileHelpers: Auto-saving content packages took 0.203
+[2021.03.15-18.19.38:865][591]LogHotReload: New module detected: UE4Editor-FirstProject-0017.dll
+[2021.03.15-18.19.41:888][601]LogHotReload: Starting Hot-Reload from IDE
+[2021.03.15-18.19.42:018][601]LogClass: Could not find existing class FloorSwitch in package /Script/FirstProject for HotReload, assuming new class
+[2021.03.15-18.19.42:019][601]LogClass: Function OnOverlapBegin is new.
+[2021.03.15-18.19.42:019][601]LogClass: Function OnOverlapEnd is new.
+[2021.03.15-18.19.42:019][601]LogClass: Function UpdateDoorElevation is new.
+[2021.03.15-18.19.42:040][601]LogHotReload: Re-instancing FloorSwitch after hot-reload.
+[2021.03.15-18.19.42:228][601]LogContentBrowser: Native class hierarchy updated for 'FirstProject' in 0.0009 seconds. Added 7 classes and 2 folders.
+[2021.03.15-18.19.42:235][601]Display: HotReload successful (1 functions remapped  0 scriptstructs remapped)
+[2021.03.15-18.19.42:598][601]LogContentBrowser: Native class hierarchy populated in 0.0166 seconds. Added 3434 classes and 823 folders.
+[2021.03.15-18.19.42:607][601]Display: HotReload took  0.7s.
+[2021.03.15-18.20.58:994][220]BlueprintLog: New page: Compile FloorSwitch_BP
+[2021.03.15-18.20.59:256][220]LogUObjectHash: Compacting FUObjectHashTables data took   5.87ms
+[2021.03.15-18.21.00:289][273]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/GameplayMechanics/FloorSwitch_BP" FILE="C:/Users/Korisnik/GameDev/Unreal projects/FirstProject/Content/GameplayMechanics/FloorSwitch_BP.uasset" SILENT=true
+[2021.03.15-18.21.00:352][273]LogSavePackage: Moving 'C:/Users/Korisnik/GameDev/Unreal projects/FirstProject/Saved/FloorSwitch_BPB358E19A441DDE558B572C8A7BAB4805.tmp' to 'C:/Users/Korisnik/GameDev/Unreal projects/FirstProject/Content/GameplayMechanics/FloorSwitch_BP.uasset'
+[2021.03.15-18.21.00:369][273]AssetCheck: New page: Asset Save: FloorSwitch_BP
+[2021.03.15-18.21.00:369][273]LogContentValidation: Display: Validating Blueprint /Game/GameplayMechanics/FloorSwitch_BP.FloorSwitch_BP
+[2021.03.15-18.21.10:005][509]LogTemp: Repeating last play command: Selected Viewport
+[2021.03.15-18.21.10:038][509]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2021.03.15-18.21.10:039][509]PIE: New page: PIE session: SunTemple (15.03.2021. 20:21:10)
+[2021.03.15-18.21.10:039][509]LogPlayLevel: Creating play world package: /Game/Maps/UEDPIE_0_SunTemple
+[2021.03.15-18.21.10:175][509]LogPlayLevel: PIE: StaticDuplicateObject took: (0.135734s)
+[2021.03.15-18.21.10:178][509]LogAIModule: Creating AISystem for world SunTemple
+[2021.03.15-18.21.10:178][509]LogAISub: UAISubsystem::UAISubsystem EnvQueryManager (000001CBE383C600), frame # 43509
+[2021.03.15-18.21.10:178][509]LogAISub: UAISubsystem::UAISubsystem AIPerceptionSystem (000001CBE0A7D080), frame # 43509
+[2021.03.15-18.21.10:178][509]LogPlayLevel: PIE: World Init took: (0.004264s)
+[2021.03.15-18.21.10:179][509]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/Maps/SunTemple.SunTemple to /Game/Maps/UEDPIE_0_SunTemple.SunTemple (0.140416s)
+[2021.03.15-18.21.10:248][509]LogUObjectHash: Compacting FUObjectHashTables data took   4.12ms
+[2021.03.15-18.21.10:256][509]LogAudioMixer: Display: Audio Mixer Platform Settings:
+[2021.03.15-18.21.10:256][509]LogAudioMixer: Display: 	Sample Rate:						  48000
+[2021.03.15-18.21.10:256][509]LogAudioMixer: Display: 	Callback Buffer Frame Size Requested: 1024
+[2021.03.15-18.21.10:256][509]LogAudioMixer: Display: 	Callback Buffer Frame Size To Use:	  1024
+[2021.03.15-18.21.10:256][509]LogAudioMixer: Display: 	Number of buffers to queue:			  2
+[2021.03.15-18.21.10:256][509]LogAudioMixer: Display: 	Max Channels (voices):				  32
+[2021.03.15-18.21.10:256][509]LogAudioMixer: Display: 	Number of Async Source Workers:		  0
+[2021.03.15-18.21.10:256][509]LogAudio: Display: AudioDevice MaxSources: 32
+[2021.03.15-18.21.10:257][509]LogAudio: Display: Using built-in audio occlusion.
+[2021.03.15-18.21.10:257][509]LogAudioMixer: Display: Initializing audio mixer.
+[2021.03.15-18.21.10:275][509]LogAudioMixer: Display: 0: FrontLeft
+[2021.03.15-18.21.10:275][509]LogAudioMixer: Display: 1: FrontRight
+[2021.03.15-18.21.10:300][509]LogAudioMixer: Display: Using Audio Device Speakers (2- Realtek High Definition Audio)
+[2021.03.15-18.21.10:300][509]LogAudioMixer: Display: Initializing Sound Submixes...
+[2021.03.15-18.21.10:300][509]LogAudioMixer: Display: Creating Master Submix 'MasterSubmixDefault'
+[2021.03.15-18.21.10:300][509]LogAudioMixer: Display: Creating Master Submix 'MasterReverbSubmixDefault'
+[2021.03.15-18.21.10:300][509]LogAudioMixer: Display: Creating Master Submix 'MasterEQSubmixDefault'
+[2021.03.15-18.21.10:326][509]LogInit: FAudioDevice initialized.
+[2021.03.15-18.21.10:342][509]LogLoad: Game class is 'CritterGameMode_BP_C'
+[2021.03.15-18.21.10:372][509]LogWorld: Bringing World /Game/Maps/UEDPIE_0_SunTemple.SunTemple up for play (max tick rate 60) at 2021.03.15-19.21.10
+[2021.03.15-18.21.10:372][509]LogWorld: Bringing up level for play took: 0.029944
+[2021.03.15-18.21.10:388][509]LogOnline: OSS: Creating online subsystem instance for: :Context_9
+[2021.03.15-18.21.10:397][509]PIE: Server logged in
+[2021.03.15-18.21.10:398][509]PIE: Play in editor total start time 0,367 seconds.
+[2021.03.15-18.21.17:114][762]LogTemp: Warning: On Overlap Begin
+[2021.03.15-18.21.18:758][823]LogTemp: Warning: On Overlap End
+[2021.03.15-18.21.25:073][ 63]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2021.03.15-18.21.25:073][ 63]LogWorld: BeginTearingDown for /Game/Maps/UEDPIE_0_SunTemple
+[2021.03.15-18.21.25:074][ 63]LogWorld: UWorld::CleanupWorld for SunTemple, bSessionEnded=true, bCleanupResources=true
+[2021.03.15-18.21.25:076][ 63]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2021.03.15-18.21.25:114][ 63]LogPlayLevel: Display: Shutting down PIE online subsystems
+[2021.03.15-18.21.25:119][ 63]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2021.03.15-18.21.25:186][ 63]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2021.03.15-18.21.25:250][ 63]LogAISub: UAISubsystem::~UAISubsystem AIPerceptionSystem (000001CBE0A7D080), frame # 44063
+[2021.03.15-18.21.25:250][ 63]LogAISub: UAISubsystem::~UAISubsystem EnvQueryManager (000001CBE383C600), frame # 44063
+[2021.03.15-18.21.25:255][ 63]LogUObjectHash: Compacting FUObjectHashTables data took   3.63ms
+[2021.03.15-18.21.25:321][ 64]LogPlayLevel: Display: Destroying online subsystem :Context_9
+[2021.03.15-18.24.59:515][570]BlueprintLog: New page: Compile FloorSwitch_BP
+[2021.03.15-18.24.59:583][570]LogUObjectHash: Compacting FUObjectHashTables data took   3.94ms
+[2021.03.15-18.25.00:524][619]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/GameplayMechanics/FloorSwitch_BP" FILE="C:/Users/Korisnik/GameDev/Unreal projects/FirstProject/Content/GameplayMechanics/FloorSwitch_BP.uasset" SILENT=true
+[2021.03.15-18.25.00:571][619]LogSavePackage: Moving 'C:/Users/Korisnik/GameDev/Unreal projects/FirstProject/Saved/FloorSwitch_BP6C34E58347DD5D10E27FC1869BD5B64F.tmp' to 'C:/Users/Korisnik/GameDev/Unreal projects/FirstProject/Content/GameplayMechanics/FloorSwitch_BP.uasset'
+[2021.03.15-18.25.00:586][619]AssetCheck: New page: Asset Save: FloorSwitch_BP
+[2021.03.15-18.25.00:586][619]LogContentValidation: Display: Validating Blueprint /Game/GameplayMechanics/FloorSwitch_BP.FloorSwitch_BP
+[2021.03.15-18.25.04:097][762]LogTemp: Repeating last play command: Selected Viewport
+[2021.03.15-18.25.04:126][762]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2021.03.15-18.25.04:126][762]PIE: New page: PIE session: SunTemple (15.03.2021. 20:25:04)
+[2021.03.15-18.25.04:126][762]LogPlayLevel: Creating play world package: /Game/Maps/UEDPIE_0_SunTemple
+[2021.03.15-18.25.04:187][762]LogPlayLevel: PIE: StaticDuplicateObject took: (0.060480s)
+[2021.03.15-18.25.04:188][762]LogAIModule: Creating AISystem for world SunTemple
+[2021.03.15-18.25.04:188][762]LogAISub: UAISubsystem::UAISubsystem EnvQueryManager (000001CBA7A84A00), frame # 52762
+[2021.03.15-18.25.04:188][762]LogAISub: UAISubsystem::UAISubsystem AIPerceptionSystem (000001CBF146F100), frame # 52762
+[2021.03.15-18.25.04:189][762]LogPlayLevel: PIE: World Init took: (0.001983s)
+[2021.03.15-18.25.04:189][762]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/Maps/SunTemple.SunTemple to /Game/Maps/UEDPIE_0_SunTemple.SunTemple (0.062750s)
+[2021.03.15-18.25.04:220][762]LogUObjectHash: Compacting FUObjectHashTables data took   3.76ms
+[2021.03.15-18.25.04:223][762]LogAudioMixer: Display: Audio Mixer Platform Settings:
+[2021.03.15-18.25.04:223][762]LogAudioMixer: Display: 	Sample Rate:						  48000
+[2021.03.15-18.25.04:223][762]LogAudioMixer: Display: 	Callback Buffer Frame Size Requested: 1024
+[2021.03.15-18.25.04:223][762]LogAudioMixer: Display: 	Callback Buffer Frame Size To Use:	  1024
+[2021.03.15-18.25.04:223][762]LogAudioMixer: Display: 	Number of buffers to queue:			  2
+[2021.03.15-18.25.04:223][762]LogAudioMixer: Display: 	Max Channels (voices):				  32
+[2021.03.15-18.25.04:223][762]LogAudioMixer: Display: 	Number of Async Source Workers:		  0
+[2021.03.15-18.25.04:223][762]LogAudio: Display: AudioDevice MaxSources: 32
+[2021.03.15-18.25.04:224][762]LogAudio: Display: Using built-in audio occlusion.
+[2021.03.15-18.25.04:224][762]LogAudioMixer: Display: Initializing audio mixer.
+[2021.03.15-18.25.04:227][762]LogAudioMixer: Display: 0: FrontLeft
+[2021.03.15-18.25.04:227][762]LogAudioMixer: Display: 1: FrontRight
+[2021.03.15-18.25.04:249][762]LogAudioMixer: Display: Using Audio Device Speakers (2- Realtek High Definition Audio)
+[2021.03.15-18.25.04:249][762]LogAudioMixer: Display: Initializing Sound Submixes...
+[2021.03.15-18.25.04:250][762]LogAudioMixer: Display: Creating Master Submix 'MasterSubmixDefault'
+[2021.03.15-18.25.04:250][762]LogAudioMixer: Display: Creating Master Submix 'MasterReverbSubmixDefault'
+[2021.03.15-18.25.04:250][762]LogAudioMixer: Display: Creating Master Submix 'MasterEQSubmixDefault'
+[2021.03.15-18.25.04:271][762]LogInit: FAudioDevice initialized.
+[2021.03.15-18.25.04:283][762]LogLoad: Game class is 'CritterGameMode_BP_C'
+[2021.03.15-18.25.04:300][762]LogWorld: Bringing World /Game/Maps/UEDPIE_0_SunTemple.SunTemple up for play (max tick rate 60) at 2021.03.15-19.25.04
+[2021.03.15-18.25.04:300][762]LogWorld: Bringing up level for play took: 0.017147
+[2021.03.15-18.25.04:301][762]LogOnline: OSS: Creating online subsystem instance for: :Context_10
+[2021.03.15-18.25.04:304][762]PIE: Server logged in
+[2021.03.15-18.25.04:305][762]PIE: Play in editor total start time 0,185 seconds.
+[2021.03.15-18.25.10:972][926]LogTemp: Warning: On Overlap Begin
+[2021.03.15-18.25.12:460][984]LogTemp: Warning: On Overlap End
+[2021.03.15-18.25.13:760][ 34]LogTemp: Warning: On Overlap Begin
+[2021.03.15-18.25.14:869][ 76]LogTemp: Warning: On Overlap End
+[2021.03.15-18.25.15:573][104]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2021.03.15-18.25.15:573][104]LogWorld: BeginTearingDown for /Game/Maps/UEDPIE_0_SunTemple
+[2021.03.15-18.25.15:574][104]LogWorld: UWorld::CleanupWorld for SunTemple, bSessionEnded=true, bCleanupResources=true
+[2021.03.15-18.25.15:576][104]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2021.03.15-18.25.15:611][104]LogPlayLevel: Display: Shutting down PIE online subsystems
+[2021.03.15-18.25.15:616][104]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2021.03.15-18.25.15:677][104]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2021.03.15-18.25.15:679][104]LogAISub: UAISubsystem::~UAISubsystem AIPerceptionSystem (000001CBF146F100), frame # 53104
+[2021.03.15-18.25.15:679][104]LogAISub: UAISubsystem::~UAISubsystem EnvQueryManager (000001CBA7A84A00), frame # 53104
+[2021.03.15-18.25.15:683][104]LogUObjectHash: Compacting FUObjectHashTables data took   2.90ms
+[2021.03.15-18.25.15:741][105]LogPlayLevel: Display: Destroying online subsystem :Context_10
+[2021.03.15-18.26.16:407][ 35]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/GameplayMechanics/FloorSwitch_BP" FILE="C:/Users/Korisnik/GameDev/Unreal projects/FirstProject/Content/GameplayMechanics/FloorSwitch_BP.uasset" SILENT=true
+[2021.03.15-18.26.16:440][ 35]LogSavePackage: Moving 'C:/Users/Korisnik/GameDev/Unreal projects/FirstProject/Saved/FloorSwitch_BPDCD2A62448227B952261DB816E782685.tmp' to 'C:/Users/Korisnik/GameDev/Unreal projects/FirstProject/Content/GameplayMechanics/FloorSwitch_BP.uasset'
+[2021.03.15-18.26.16:457][ 35]AssetCheck: New page: Asset Save: FloorSwitch_BP
+[2021.03.15-18.26.16:457][ 35]LogContentValidation: Display: Validating Blueprint /Game/GameplayMechanics/FloorSwitch_BP.FloorSwitch_BP
+[2021.03.15-18.26.21:298][269]LogTemp: Repeating last play command: Selected Viewport
+[2021.03.15-18.26.21:321][269]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2021.03.15-18.26.21:321][269]PIE: New page: PIE session: SunTemple (15.03.2021. 20:26:21)
+[2021.03.15-18.26.21:321][269]LogPlayLevel: Creating play world package: /Game/Maps/UEDPIE_0_SunTemple
+[2021.03.15-18.26.21:380][269]LogPlayLevel: PIE: StaticDuplicateObject took: (0.058672s)
+[2021.03.15-18.26.21:381][269]LogAIModule: Creating AISystem for world SunTemple
+[2021.03.15-18.26.21:381][269]LogAISub: UAISubsystem::UAISubsystem EnvQueryManager (000001CB8F7A3E00), frame # 56269
+[2021.03.15-18.26.23:892][269]LogAISub: UAISubsystem::UAISubsystem AIPerceptionSystem (000001CBE3604900), frame # 56269
+[2021.03.15-18.26.23:892][269]LogPlayLevel: PIE: World Init took: (2.512771s)
+[2021.03.15-18.26.23:893][269]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/Maps/SunTemple.SunTemple to /Game/Maps/UEDPIE_0_SunTemple.SunTemple (2.571718s)
+[2021.03.15-18.26.23:924][269]LogUObjectHash: Compacting FUObjectHashTables data took   2.82ms
+[2021.03.15-18.26.23:926][269]LogAudioMixer: Display: Audio Mixer Platform Settings:
+[2021.03.15-18.26.23:926][269]LogAudioMixer: Display: 	Sample Rate:						  48000
+[2021.03.15-18.26.23:926][269]LogAudioMixer: Display: 	Callback Buffer Frame Size Requested: 1024
+[2021.03.15-18.26.23:926][269]LogAudioMixer: Display: 	Callback Buffer Frame Size To Use:	  1024
+[2021.03.15-18.26.23:926][269]LogAudioMixer: Display: 	Number of buffers to queue:			  2
+[2021.03.15-18.26.23:926][269]LogAudioMixer: Display: 	Max Channels (voices):				  32
+[2021.03.15-18.26.23:926][269]LogAudioMixer: Display: 	Number of Async Source Workers:		  0
+[2021.03.15-18.26.23:926][269]LogAudio: Display: AudioDevice MaxSources: 32
+[2021.03.15-18.26.23:926][269]LogAudio: Display: Using built-in audio occlusion.
+[2021.03.15-18.26.23:926][269]LogAudioMixer: Display: Initializing audio mixer.
+[2021.03.15-18.26.23:929][269]LogAudioMixer: Display: 0: FrontLeft
+[2021.03.15-18.26.23:929][269]LogAudioMixer: Display: 1: FrontRight
+[2021.03.15-18.26.23:950][269]LogAudioMixer: Display: Using Audio Device Speakers (2- Realtek High Definition Audio)
+[2021.03.15-18.26.23:951][269]LogAudioMixer: Display: Initializing Sound Submixes...
+[2021.03.15-18.26.23:951][269]LogAudioMixer: Display: Creating Master Submix 'MasterSubmixDefault'
+[2021.03.15-18.26.23:951][269]LogAudioMixer: Display: Creating Master Submix 'MasterReverbSubmixDefault'
+[2021.03.15-18.26.23:951][269]LogAudioMixer: Display: Creating Master Submix 'MasterEQSubmixDefault'
+[2021.03.15-18.26.23:973][269]LogInit: FAudioDevice initialized.
+[2021.03.15-18.26.23:991][269]LogLoad: Game class is 'CritterGameMode_BP_C'
+[2021.03.15-18.26.24:007][269]LogWorld: Bringing World /Game/Maps/UEDPIE_0_SunTemple.SunTemple up for play (max tick rate 60) at 2021.03.15-19.26.24
+[2021.03.15-18.26.24:007][269]LogWorld: Bringing up level for play took: 0.015716
+[2021.03.15-18.26.24:008][269]LogOnline: OSS: Creating online subsystem instance for: :Context_11
+[2021.03.15-18.26.24:011][269]PIE: Server logged in
+[2021.03.15-18.26.24:012][269]PIE: Play in editor total start time 2,692 seconds.
+[2021.03.15-18.26.32:974][599]LogTemp: Warning: On Overlap Begin
+[2021.03.15-18.26.34:533][654]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2021.03.15-18.26.34:533][654]LogWorld: BeginTearingDown for /Game/Maps/UEDPIE_0_SunTemple
+[2021.03.15-18.26.34:534][654]LogWorld: UWorld::CleanupWorld for SunTemple, bSessionEnded=true, bCleanupResources=true
+[2021.03.15-18.26.34:539][654]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2021.03.15-18.26.34:582][654]LogPlayLevel: Display: Shutting down PIE online subsystems
+[2021.03.15-18.26.34:588][654]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2021.03.15-18.26.34:625][654]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2021.03.15-18.26.34:656][654]LogAISub: UAISubsystem::~UAISubsystem AIPerceptionSystem (000001CBE3604900), frame # 56654
+[2021.03.15-18.26.34:656][654]LogAISub: UAISubsystem::~UAISubsystem EnvQueryManager (000001CB8F7A3E00), frame # 56654
+[2021.03.15-18.26.34:661][654]LogUObjectHash: Compacting FUObjectHashTables data took   3.36ms
+[2021.03.15-18.26.34:717][655]LogPlayLevel: Display: Destroying online subsystem :Context_11
+[2021.03.15-18.27.18:235][564]LogUObjectHash: Compacting FUObjectHashTables data took   3.00ms
+[2021.03.15-18.27.18:237][564]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Maps/SunTemple" FILE="C:/Users/Korisnik/GameDev/Unreal projects/FirstProject/Saved/Autosaves/Game/Maps/SunTemple_Auto4.umap" SILENT=true AUTOSAVING=true KEEPDIRTY=false
+[2021.03.15-18.27.18:625][564]LogSavePackage: Moving 'C:/Users/Korisnik/GameDev/Unreal projects/FirstProject/Saved/SunTemple_Auto48B5DD1B648E01B06F28467A461707E3E.tmp' to 'C:/Users/Korisnik/GameDev/Unreal projects/FirstProject/Saved/Autosaves/Game/Maps/SunTemple_Auto4.umap'
+[2021.03.15-18.27.18:628][564]LogFileHelpers: Editor autosave (incl. sublevels) for '/Game/Maps/SunTemple' took 0.431
+[2021.03.15-18.27.18:628][564]LogFileHelpers: Editor autosave (incl. sublevels) for all levels took 0.431
+[2021.03.15-18.29.51:777][325]LogHotReload: New module detected: UE4Editor-FirstProject-0018.dll
+[2021.03.15-18.29.53:812][332]LogHotReload: Starting Hot-Reload from IDE
+[2021.03.15-18.29.53:920][332]LogContentBrowser: Native class hierarchy updated for 'FirstProject' in 0.0008 seconds. Added 7 classes and 2 folders.
+[2021.03.15-18.29.53:927][332]Display: HotReload successful (4 functions remapped  0 scriptstructs remapped)
+[2021.03.15-18.29.54:205][332]LogContentBrowser: Native class hierarchy populated in 0.0127 seconds. Added 3434 classes and 823 folders.
+[2021.03.15-18.29.54:215][332]Display: HotReload took  0.4s.
+[2021.03.15-18.30.00:848][460]LogTemp: Repeating last play command: Selected Viewport
+[2021.03.15-18.30.00:884][460]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2021.03.15-18.30.00:885][460]PIE: New page: PIE session: SunTemple (15.03.2021. 20:30:00)
+[2021.03.15-18.30.00:885][460]LogPlayLevel: Creating play world package: /Game/Maps/UEDPIE_0_SunTemple
+[2021.03.15-18.30.00:961][460]LogPlayLevel: PIE: StaticDuplicateObject took: (0.075658s)
+[2021.03.15-18.30.00:962][460]LogAIModule: Creating AISystem for world SunTemple
+[2021.03.15-18.30.00:962][460]LogAISub: UAISubsystem::UAISubsystem EnvQueryManager (000001CBE0E4E400), frame # 58460
+[2021.03.15-18.30.00:962][460]LogAISub: UAISubsystem::UAISubsystem AIPerceptionSystem (000001CBB3881940), frame # 58460
+[2021.03.15-18.30.00:963][460]LogPlayLevel: PIE: World Init took: (0.002299s)
+[2021.03.15-18.30.00:963][460]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/Maps/SunTemple.SunTemple to /Game/Maps/UEDPIE_0_SunTemple.SunTemple (0.078334s)
+[2021.03.15-18.30.01:061][460]LogUObjectHash: Compacting FUObjectHashTables data took   5.17ms
+[2021.03.15-18.30.01:063][460]LogAudioMixer: Display: Audio Mixer Platform Settings:
+[2021.03.15-18.30.01:063][460]LogAudioMixer: Display: 	Sample Rate:						  48000
+[2021.03.15-18.30.01:063][460]LogAudioMixer: Display: 	Callback Buffer Frame Size Requested: 1024
+[2021.03.15-18.30.01:063][460]LogAudioMixer: Display: 	Callback Buffer Frame Size To Use:	  1024
+[2021.03.15-18.30.01:063][460]LogAudioMixer: Display: 	Number of buffers to queue:			  2
+[2021.03.15-18.30.01:063][460]LogAudioMixer: Display: 	Max Channels (voices):				  32
+[2021.03.15-18.30.01:063][460]LogAudioMixer: Display: 	Number of Async Source Workers:		  0
+[2021.03.15-18.30.01:064][460]LogAudio: Display: AudioDevice MaxSources: 32
+[2021.03.15-18.30.01:064][460]LogAudio: Display: Using built-in audio occlusion.
+[2021.03.15-18.30.01:064][460]LogAudioMixer: Display: Initializing audio mixer.
+[2021.03.15-18.30.01:068][460]LogAudioMixer: Display: 0: FrontLeft
+[2021.03.15-18.30.01:068][460]LogAudioMixer: Display: 1: FrontRight
+[2021.03.15-18.30.01:092][460]LogAudioMixer: Display: Using Audio Device Speakers (2- Realtek High Definition Audio)
+[2021.03.15-18.30.01:093][460]LogAudioMixer: Display: Initializing Sound Submixes...
+[2021.03.15-18.30.01:093][460]LogAudioMixer: Display: Creating Master Submix 'MasterSubmixDefault'
+[2021.03.15-18.30.01:093][460]LogAudioMixer: Display: Creating Master Submix 'MasterReverbSubmixDefault'
+[2021.03.15-18.30.01:093][460]LogAudioMixer: Display: Creating Master Submix 'MasterEQSubmixDefault'
+[2021.03.15-18.30.01:119][460]LogInit: FAudioDevice initialized.
+[2021.03.15-18.30.01:132][460]LogLoad: Game class is 'CritterGameMode_BP_C'
+[2021.03.15-18.30.01:162][460]LogWorld: Bringing World /Game/Maps/UEDPIE_0_SunTemple.SunTemple up for play (max tick rate 60) at 2021.03.15-19.30.01
+[2021.03.15-18.30.01:163][460]LogWorld: Bringing up level for play took: 0.030017
+[2021.03.15-18.30.01:163][460]LogOnline: OSS: Creating online subsystem instance for: :Context_12
+[2021.03.15-18.30.01:167][460]PIE: Server logged in
+[2021.03.15-18.30.01:168][460]PIE: Play in editor total start time 0,292 seconds.
+[2021.03.15-18.30.04:461][581]LogTemp: Warning: On Overlap Begin
+[2021.03.15-18.30.06:454][657]LogTemp: Warning: On Overlap End
+[2021.03.15-18.30.07:765][707]LogTemp: Warning: On Overlap Begin
+[2021.03.15-18.30.08:611][739]LogTemp: Warning: On Overlap End
+[2021.03.15-18.30.09:912][788]LogTemp: Warning: On Overlap Begin
+[2021.03.15-18.30.10:739][820]LogTemp: Warning: On Overlap End
+[2021.03.15-18.30.12:053][870]LogTemp: Warning: On Overlap Begin
+[2021.03.15-18.30.12:900][902]LogTemp: Warning: On Overlap End
+[2021.03.15-18.30.15:812][ 15]LogTemp: Warning: On Overlap Begin
+[2021.03.15-18.31.00:613][503]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2021.03.15-18.31.00:613][503]LogWorld: BeginTearingDown for /Game/Maps/UEDPIE_0_SunTemple
+[2021.03.15-18.31.00:614][503]LogWorld: UWorld::CleanupWorld for SunTemple, bSessionEnded=true, bCleanupResources=true
+[2021.03.15-18.31.00:616][503]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2021.03.15-18.31.00:654][503]LogPlayLevel: Display: Shutting down PIE online subsystems
+[2021.03.15-18.31.00:659][503]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2021.03.15-18.31.00:686][503]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2021.03.15-18.31.00:716][503]LogAISub: UAISubsystem::~UAISubsystem AIPerceptionSystem (000001CBB3881940), frame # 59503
+[2021.03.15-18.31.00:716][503]LogAISub: UAISubsystem::~UAISubsystem EnvQueryManager (000001CBE0E4E400), frame # 59503
+[2021.03.15-18.31.00:721][503]LogUObjectHash: Compacting FUObjectHashTables data took   3.39ms
+[2021.03.15-18.31.00:772][504]LogPlayLevel: Display: Destroying online subsystem :Context_12
+[2021.03.15-18.31.07:981][915]BlueprintLog: New page: Compile FloorSwitch_BP
+[2021.03.15-18.31.08:039][915]LogUObjectHash: Compacting FUObjectHashTables data took   3.49ms
+[2021.03.15-18.31.08:995][966]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/GameplayMechanics/FloorSwitch_BP" FILE="C:/Users/Korisnik/GameDev/Unreal projects/FirstProject/Content/GameplayMechanics/FloorSwitch_BP.uasset" SILENT=true
+[2021.03.15-18.31.09:041][966]LogSavePackage: Moving 'C:/Users/Korisnik/GameDev/Unreal projects/FirstProject/Saved/FloorSwitch_BPC2D2E53F479403270E60C29D3F425893.tmp' to 'C:/Users/Korisnik/GameDev/Unreal projects/FirstProject/Content/GameplayMechanics/FloorSwitch_BP.uasset'
+[2021.03.15-18.31.09:058][966]AssetCheck: New page: Asset Save: FloorSwitch_BP
+[2021.03.15-18.31.09:058][966]LogContentValidation: Display: Validating Blueprint /Game/GameplayMechanics/FloorSwitch_BP.FloorSwitch_BP
+[2021.03.15-18.31.13:464][ 37]LogUObjectHash: Compacting FUObjectHashTables data took   3.55ms
+[2021.03.15-18.31.14:850][ 37]LogSlate: Window 'Save Content' being destroyed
+[2021.03.15-18.31.14:948][ 37]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Maps/SunTemple" FILE="C:/Users/Korisnik/GameDev/Unreal projects/FirstProject/Content/Maps/SunTemple.umap" SILENT=true AUTOSAVING=false KEEPDIRTY=false
+[2021.03.15-18.31.15:031][ 37]LogUObjectHash: Compacting FUObjectHashTables data took   0.74ms
+[2021.03.15-18.31.15:375][ 37]LogSavePackage: Moving 'C:/Users/Korisnik/GameDev/Unreal projects/FirstProject/Saved/SunTempleFBA2400348E5A74722EA1FADF6255C11.tmp' to 'C:/Users/Korisnik/GameDev/Unreal projects/FirstProject/Content/Maps/SunTemple.umap'
+[2021.03.15-18.31.15:578][ 37]LogFileHelpers: Saving map 'SunTemple' took 0.631
+[2021.03.15-18.31.15:579][ 37]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Maps/SunTemple_BuiltData" FILE="C:/Users/Korisnik/GameDev/Unreal projects/FirstProject/Content/Maps/SunTemple_BuiltData.uasset" SILENT=true
+[2021.03.15-18.31.30:534][ 37]LogSavePackage: Moving 'C:/Users/Korisnik/GameDev/Unreal projects/FirstProject/Saved/SunTemple_BuiltData60690BE243BA75C7949E42B12384D6C6.tmp' to 'C:/Users/Korisnik/GameDev/Unreal projects/FirstProject/Content/Maps/SunTemple_BuiltData.uasset'
+[2021.03.15-18.31.30:608][ 37]AssetCheck: New page: Asset Save: multiple assets
+[2021.03.15-18.31.30:608][ 37]LogContentValidation: Display: Validating World /Game/Maps/SunTemple.SunTemple
+[2021.03.15-18.31.30:608][ 37]LogContentValidation: Display: Validating MapBuildDataRegistry /Game/Maps/SunTemple_BuiltData.SunTemple_BuiltData
+[2021.03.15-18.31.37:457][293]LogTemp: Repeating last play command: Selected Viewport
+[2021.03.15-18.31.37:484][293]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2021.03.15-18.31.37:485][293]PIE: New page: PIE session: SunTemple (15.03.2021. 20:31:37)
+[2021.03.15-18.31.37:485][293]LogPlayLevel: Creating play world package: /Game/Maps/UEDPIE_0_SunTemple
+[2021.03.15-18.31.37:542][293]LogPlayLevel: PIE: StaticDuplicateObject took: (0.058436s)
+[2021.03.15-18.31.37:543][293]LogAIModule: Creating AISystem for world SunTemple
+[2021.03.15-18.31.37:543][293]LogAISub: UAISubsystem::UAISubsystem EnvQueryManager (000001CBE2D9FE00), frame # 60293
+[2021.03.15-18.31.37:543][293]LogAISub: UAISubsystem::UAISubsystem AIPerceptionSystem (000001CBF09B9580), frame # 60293
+[2021.03.15-18.31.37:544][293]LogPlayLevel: PIE: World Init took: (0.001638s)
+[2021.03.15-18.31.37:544][293]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/Maps/SunTemple.SunTemple to /Game/Maps/UEDPIE_0_SunTemple.SunTemple (0.060472s)
+[2021.03.15-18.31.37:583][293]LogUObjectHash: Compacting FUObjectHashTables data took   3.58ms
+[2021.03.15-18.31.37:593][293]LogAudioMixer: Display: Audio Mixer Platform Settings:
+[2021.03.15-18.31.37:593][293]LogAudioMixer: Display: 	Sample Rate:						  48000
+[2021.03.15-18.31.37:593][293]LogAudioMixer: Display: 	Callback Buffer Frame Size Requested: 1024
+[2021.03.15-18.31.37:593][293]LogAudioMixer: Display: 	Callback Buffer Frame Size To Use:	  1024
+[2021.03.15-18.31.37:593][293]LogAudioMixer: Display: 	Number of buffers to queue:			  2
+[2021.03.15-18.31.37:593][293]LogAudioMixer: Display: 	Max Channels (voices):				  32
+[2021.03.15-18.31.37:593][293]LogAudioMixer: Display: 	Number of Async Source Workers:		  0
+[2021.03.15-18.31.37:593][293]LogAudio: Display: AudioDevice MaxSources: 32
+[2021.03.15-18.31.37:594][293]LogAudio: Display: Using built-in audio occlusion.
+[2021.03.15-18.31.37:594][293]LogAudioMixer: Display: Initializing audio mixer.
+[2021.03.15-18.31.37:596][293]LogAudioMixer: Display: 0: FrontLeft
+[2021.03.15-18.31.37:596][293]LogAudioMixer: Display: 1: FrontRight
+[2021.03.15-18.31.37:617][293]LogAudioMixer: Display: Using Audio Device Speakers (2- Realtek High Definition Audio)
+[2021.03.15-18.31.37:618][293]LogAudioMixer: Display: Initializing Sound Submixes...
+[2021.03.15-18.31.37:618][293]LogAudioMixer: Display: Creating Master Submix 'MasterSubmixDefault'
+[2021.03.15-18.31.37:618][293]LogAudioMixer: Display: Creating Master Submix 'MasterReverbSubmixDefault'
+[2021.03.15-18.31.37:618][293]LogAudioMixer: Display: Creating Master Submix 'MasterEQSubmixDefault'
+[2021.03.15-18.31.37:640][293]LogInit: FAudioDevice initialized.
+[2021.03.15-18.31.37:648][293]LogLoad: Game class is 'CritterGameMode_BP_C'
+[2021.03.15-18.31.37:664][293]LogWorld: Bringing World /Game/Maps/UEDPIE_0_SunTemple.SunTemple up for play (max tick rate 60) at 2021.03.15-19.31.37
+[2021.03.15-18.31.37:664][293]LogWorld: Bringing up level for play took: 0.017225
+[2021.03.15-18.31.37:665][293]LogOnline: OSS: Creating online subsystem instance for: :Context_13
+[2021.03.15-18.31.37:668][293]PIE: Server logged in
+[2021.03.15-18.31.37:669][293]PIE: Play in editor total start time 0,19 seconds.
+[2021.03.15-18.31.42:264][473]LogTemp: Warning: On Overlap Begin
+[2021.03.15-18.31.43:688][526]LogTemp: Warning: On Overlap End
+[2021.03.15-18.31.47:898][690]LogTemp: Warning: On Overlap Begin
+[2021.03.15-18.31.49:328][744]LogTemp: Warning: On Overlap End
+[2021.03.15-18.31.57:369][ 46]LogTemp: Warning: On Overlap Begin
+[2021.03.15-18.31.58:513][ 89]LogTemp: Warning: On Overlap End
+[2021.03.15-18.32.06:850][312]LogTemp: Warning: On Overlap Begin
+[2021.03.15-18.32.07:716][345]LogTemp: Warning: On Overlap End
+[2021.03.15-18.32.08:260][363]LogCharacterMovement: MainCharacter_BP_C_0 is stuck and failed to move! Velocity: X=-112.40 Y=-589.38 Z=0.00 Location: X=615.06 Y=3002.38 Z=118.54 Normal: X=-0.00 Y=0.79 Z=-0.61 PenetrationDepth:8.434 Actor:FloorSwitch_BP_2 Component:Door BoneName:None (0 other events since notify)
+[2021.03.15-18.32.12:285][516]LogTemp: Warning: On Overlap Begin
+[2021.03.15-18.32.13:529][563]LogTemp: Warning: On Overlap End
+[2021.03.15-18.32.14:005][581]LogCharacterMovement: MainCharacter_BP_C_0 is stuck and failed to move! Velocity: X=-28.22 Y=-599.34 Z=0.00 Location: X=594.30 Y=2999.07 Z=118.69 Normal: X=-0.00 Y=0.73 Z=-0.69 PenetrationDepth:10.472 Actor:FloorSwitch_BP_2 Component:Door BoneName:None (0 other events since notify)
+[2021.03.15-18.32.17:814][728]LogTemp: Warning: On Overlap Begin
+[2021.03.15-18.32.18:810][766]LogTemp: Warning: On Overlap End
+[2021.03.15-18.32.20:125][815]LogTemp: Warning: On Overlap Begin
+[2021.03.15-18.32.22:335][898]LogTemp: Warning: On Overlap End
+[2021.03.15-18.32.23:267][933]LogTemp: Warning: On Overlap Begin
+[2021.03.15-18.32.23:267][933]LogTemp: Warning: On Overlap End
+[2021.03.15-18.32.23:294][934]LogTemp: Warning: On Overlap Begin
+[2021.03.15-18.32.23:294][934]LogTemp: Warning: On Overlap End
+[2021.03.15-18.32.23:320][935]LogTemp: Warning: On Overlap Begin
+[2021.03.15-18.32.23:320][935]LogTemp: Warning: On Overlap End
+[2021.03.15-18.32.23:373][937]LogTemp: Warning: On Overlap Begin
+[2021.03.15-18.32.23:373][937]LogTemp: Warning: On Overlap End
+[2021.03.15-18.32.23:399][938]LogTemp: Warning: On Overlap Begin
+[2021.03.15-18.32.23:399][938]LogTemp: Warning: On Overlap End
+[2021.03.15-18.32.23:451][940]LogTemp: Warning: On Overlap Begin
+[2021.03.15-18.32.23:451][940]LogTemp: Warning: On Overlap End
+[2021.03.15-18.32.23:975][960]LogTemp: Warning: On Overlap Begin
+[2021.03.15-18.32.23:975][960]LogTemp: Warning: On Overlap End
+[2021.03.15-18.32.24:027][962]LogTemp: Warning: On Overlap Begin
+[2021.03.15-18.32.24:027][962]LogTemp: Warning: On Overlap End
+[2021.03.15-18.32.25:231][  7]LogTemp: Warning: On Overlap Begin
+[2021.03.15-18.32.26:159][ 42]LogTemp: Warning: On Overlap End
+[2021.03.15-18.32.26:630][ 60]LogCharacterMovement: MainCharacter_BP_C_0 is stuck and failed to move! Velocity: X=30.13 Y=-599.24 Z=0.00 Location: X=704.72 Y=2991.73 Z=118.89 Normal: X=-0.00 Y=0.47 Z=-0.88 PenetrationDepth:12.153 Actor:FloorSwitch_BP_2 Component:Door BoneName:None (0 other events since notify)
+[2021.03.15-18.32.28:790][142]LogTemp: Warning: On Overlap Begin
+[2021.03.15-18.32.29:477][168]LogTemp: Warning: On Overlap End
+[2021.03.15-18.32.30:774][217]LogTemp: Warning: On Overlap Begin
+[2021.03.15-18.32.32:021][264]LogTemp: Warning: On Overlap End
+[2021.03.15-18.32.33:335][313]LogTemp: Warning: On Overlap Begin
+[2021.03.15-18.32.34:376][352]LogTemp: Warning: On Overlap End
+[2021.03.15-18.32.35:688][401]LogTemp: Warning: On Overlap Begin
+[2021.03.15-18.32.36:335][425]LogTemp: Warning: On Overlap End
+[2021.03.15-18.32.39:321][536]LogTemp: Warning: On Overlap Begin
+[2021.03.15-18.32.39:833][555]LogTemp: Warning: On Overlap End
+[2021.03.15-18.32.41:120][603]LogTemp: Warning: On Overlap Begin
+[2021.03.15-18.32.41:201][606]LogTemp: Warning: On Overlap End
+[2021.03.15-18.32.50:092][955]LogTemp: Warning: On Overlap Begin
+[2021.03.15-18.32.51:975][ 26]LogTemp: Warning: On Overlap End
+[2021.03.15-18.33.03:379][463]LogTemp: Warning: On Overlap Begin
+[2021.03.15-18.33.05:643][548]LogTemp: Warning: On Overlap End
+[2021.03.15-18.33.07:153][603]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2021.03.15-18.33.07:153][603]LogWorld: BeginTearingDown for /Game/Maps/UEDPIE_0_SunTemple
+[2021.03.15-18.33.07:154][603]LogWorld: UWorld::CleanupWorld for SunTemple, bSessionEnded=true, bCleanupResources=true
+[2021.03.15-18.33.07:161][603]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2021.03.15-18.33.07:200][603]LogPlayLevel: Display: Shutting down PIE online subsystems
+[2021.03.15-18.33.07:208][603]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2021.03.15-18.33.07:268][603]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2021.03.15-18.33.07:273][603]LogAISub: UAISubsystem::~UAISubsystem AIPerceptionSystem (000001CBF09B9580), frame # 63603
+[2021.03.15-18.33.07:273][603]LogAISub: UAISubsystem::~UAISubsystem EnvQueryManager (000001CBE2D9FE00), frame # 63603
+[2021.03.15-18.33.07:278][603]LogUObjectHash: Compacting FUObjectHashTables data took   3.31ms
+[2021.03.15-18.33.07:336][604]LogPlayLevel: Display: Destroying online subsystem :Context_13
+[2021.03.15-18.38.13:928][684]BlueprintLog: New page: Compile FloorSwitch_BP
+[2021.03.15-18.38.14:014][684]LogUObjectHash: Compacting FUObjectHashTables data took   4.39ms
+[2021.03.15-18.38.14:999][733]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/GameplayMechanics/FloorSwitch_BP" FILE="C:/Users/Korisnik/GameDev/Unreal projects/FirstProject/Content/GameplayMechanics/FloorSwitch_BP.uasset" SILENT=true
+[2021.03.15-18.38.15:087][733]LogSavePackage: Moving 'C:/Users/Korisnik/GameDev/Unreal projects/FirstProject/Saved/FloorSwitch_BP3A509E82491BECC99D645A895F539210.tmp' to 'C:/Users/Korisnik/GameDev/Unreal projects/FirstProject/Content/GameplayMechanics/FloorSwitch_BP.uasset'
+[2021.03.15-18.38.15:110][733]AssetCheck: New page: Asset Save: FloorSwitch_BP
+[2021.03.15-18.38.15:110][733]LogContentValidation: Display: Validating Blueprint /Game/GameplayMechanics/FloorSwitch_BP.FloorSwitch_BP
+[2021.03.15-18.38.16:592][796]LogRenderer: Reallocating scene render targets to support 1184x536 Format 10 NumSamples 1 (Frame:2459).
+[2021.03.15-18.40.02:866][442]BlueprintLog: New page: Compile FloorSwitch_BP
+[2021.03.15-18.40.02:950][442]LogUObjectHash: Compacting FUObjectHashTables data took   6.87ms
+[2021.03.15-18.40.26:647][891]LogWorld: UWorld::CleanupWorld for World_6, bSessionEnded=true, bCleanupResources=true
+[2021.03.15-18.40.26:647][891]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2021.03.15-18.40.29:454][927]LogAssetEditorSubsystem: Opening Asset editor for Blueprint /Game/GameplayMechanics/FloorSwitch_BP.FloorSwitch_BP
+[2021.03.15-18.41.59:018][ 34]LogHotReload: New module detected: UE4Editor-FirstProject-0020.dll
+[2021.03.15-18.42.01:422][ 42]LogHotReload: Starting Hot-Reload from IDE
+[2021.03.15-18.42.01:545][ 42]LogClass: Could not find existing class FloorSwitch in package /Script/FirstProject for HotReload, assuming new class
+[2021.03.15-18.42.01:545][ 42]LogClass: Function OnOverlapBegin is new.
+[2021.03.15-18.42.01:545][ 42]LogClass: Function OnOverlapEnd is new.
+[2021.03.15-18.42.01:545][ 42]LogClass: Function UpdateDoorElevation is new.
+[2021.03.15-18.42.01:545][ 42]LogClass: Function UpdateSwitchElevation is new.
+[2021.03.15-18.42.01:565][ 42]LogHotReload: Re-instancing FloorSwitch after hot-reload.
+[2021.03.15-18.42.01:670][ 42]LogContentBrowser: Native class hierarchy updated for 'FirstProject' in 0.0006 seconds. Added 7 classes and 2 folders.
+[2021.03.15-18.42.01:677][ 42]Display: HotReload successful (1 functions remapped  0 scriptstructs remapped)
