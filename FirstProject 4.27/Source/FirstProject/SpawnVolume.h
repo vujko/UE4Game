@@ -19,7 +19,12 @@ public:
 	class UBoxComponent* SpawningBox;
 
 	UPROPERTY(BlueprintReadOnly, EditAnywhere, Category = Spawning)
-	TSubclassOf<class ACritter> PawnToSpawn;
+	TSubclassOf<AActor> Actor_1;
+
+	UPROPERTY(BlueprintReadOnly, EditAnywhere, Category = Spawning)
+	TSubclassOf<AActor> Actor_2;
+
+	TArray<TSubclassOf<AActor>> SpawnArray;
 
 protected:
 	// Called when the game starts or when spawned
@@ -32,7 +37,11 @@ public:
 	UFUNCTION(BlueprintPure, Category = Spawning)
 	FVector GetSpawningPoint();
 
+	UFUNCTION(BlueprintPure, Category = Spawning)
+	TSubclassOf<AActor> GetSpawningActor();
+
+
 	UFUNCTION(BlueprintNativeEvent, BlueprintCallable, Category = Spawning)
-	void SpawnOurPawn(UClass* ToSpawn, const FVector Location);
+	void SpawnOurActor(UClass* ToSpawn, const FVector Location);
 
 };

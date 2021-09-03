@@ -5,7 +5,8 @@
 #include "Components/BoxComponent.h"
 #include "Kismet/KismetMathLibrary.h"
 #include "Critter.h"
-
+#include "Enemy.h"
+#include "AIController.h"
 // Sets default values
 ASpawnVolume::ASpawnVolume()
 {
@@ -19,6 +20,12 @@ ASpawnVolume::ASpawnVolume()
 void ASpawnVolume::BeginPlay()
 {
 	Super::BeginPlay();
+
+	if (Actor_1 && Actor_2)
+	{
+		SpawnArray.Add(Actor_1);
+		SpawnArray.Add(Actor_2);
+	}
 	
 }
 
@@ -37,15 +44,30 @@ FVector ASpawnVolume::GetSpawningPoint()
 	return UKismetMathLibrary::RandomPointInBoundingBox(BoxOrigin, Extent);
 }
 
-void ASpawnVolume::SpawnOurPawn_Implementation(UClass* ToSpawn, const FVector Location)
+void ASpawnVolume::SpawnOurActor_Implementation(UClass* ToSpawn, const FVector Location)
 {
 	if(ToSpawn)
 	{
 		UWorld* World = GetWorld();
 		if(World)
 		{
-			ACritter* Critter = World->SpawnActor<ACritter>(ToSpawn, Location, FRotator(0.f));
+			World->SpawnActor<AActor>(ToSpawn, Location, FRotator(0.f));
+
+
 		}
+	}
+}
+
+TSubclassOf<AActor> ASpawnVolume::GetSpawningActor()
+{
+	if (SpawnArray.Num() > 0)
+	{
+		int32 Selection = FMath::RandRange(0, SpawnArray.Num() - 1);
+		return SpawnArray[Selection];
+	}
+	else
+	{
+		return nullptr;
 	}
 }
 

@@ -10,6 +10,7 @@
 PRAGMA_DISABLE_DEPRECATION_WARNINGS
 class UObject;
 struct FVector;
+class AActor;
 #ifdef FIRSTPROJECT_SpawnVolume_generated_h
 #error "SpawnVolume.generated.h already included, missing '#pragma once' in SpawnVolume.h"
 #endif
@@ -17,21 +18,23 @@ struct FVector;
 
 #define FirstProject_4_27_Source_FirstProject_SpawnVolume_h_12_SPARSE_DATA
 #define FirstProject_4_27_Source_FirstProject_SpawnVolume_h_12_RPC_WRAPPERS \
-	virtual void SpawnOurPawn_Implementation(UClass* ToSpawn, const FVector Location); \
+	virtual void SpawnOurActor_Implementation(UClass* ToSpawn, const FVector Location); \
  \
-	DECLARE_FUNCTION(execSpawnOurPawn); \
+	DECLARE_FUNCTION(execSpawnOurActor); \
+	DECLARE_FUNCTION(execGetSpawningActor); \
 	DECLARE_FUNCTION(execGetSpawningPoint);
 
 
 #define FirstProject_4_27_Source_FirstProject_SpawnVolume_h_12_RPC_WRAPPERS_NO_PURE_DECLS \
-	virtual void SpawnOurPawn_Implementation(UClass* ToSpawn, const FVector Location); \
+	virtual void SpawnOurActor_Implementation(UClass* ToSpawn, const FVector Location); \
  \
-	DECLARE_FUNCTION(execSpawnOurPawn); \
+	DECLARE_FUNCTION(execSpawnOurActor); \
+	DECLARE_FUNCTION(execGetSpawningActor); \
 	DECLARE_FUNCTION(execGetSpawningPoint);
 
 
 #define FirstProject_4_27_Source_FirstProject_SpawnVolume_h_12_EVENT_PARMS \
-	struct SpawnVolume_eventSpawnOurPawn_Parms \
+	struct SpawnVolume_eventSpawnOurActor_Parms \
 	{ \
 		UClass* ToSpawn; \
 		FVector Location; \

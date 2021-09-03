@@ -1,24 +1,12 @@
 ﻿  Using 'git status' to determine working set for adaptive non-unity build (C:\SSD120\Korisnik\GameDev\Unreal projects\UE4Game).
-  Parsing headers for FirstProjectEditor
-    Running UnrealHeaderTool "C:\SSD120\Korisnik\GameDev\Unreal projects\UE4Game\FirstProject 4.27\FirstProject.uproject" "C:\SSD120\Korisnik\GameDev\Unreal projects\UE4Game\FirstProject 4.27\Intermediate\Build\Win64\FirstProjectEditor\Development\FirstProjectEditor.uhtmanifest" -LogCmds="loginit warning, logexit warning, logdatabase error" -Unattended -WarningsAsErrors -abslog="C:\Users\Vukasin\AppData\Local\UnrealBuildTool\Log_UHT.txt" -installed
-  LogInit: Display: Loading text-based GConfig....
-  Reflection code generated for FirstProjectEditor in 9.0120302 seconds
   Building FirstProjectEditor...
   Using Visual Studio 2019 14.29.30133 toolchain (C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\VC\Tools\MSVC\14.29.30133) and Windows 10.0.17763.0 SDK (C:\Program Files (x86)\Windows Kits\10).
-  Building 12 actions with 4 processes...
-    [1/12] MainAnimInstance.cpp
-    [2/12] Explosive.cpp
-    [3/12] Enemy.cpp
-    [4/12] MainCharacter.cpp
-    [5/12] FirstProject.init.gen.cpp
-    [6/12] Pickup.cpp
-    [7/12] Weapon.cpp
-    [8/12] MainCharacter.gen.cpp
-    [9/12] Pickup.gen.cpp
-    [10/12] UE4Editor-FirstProject-0039.lib
-       Creating library C:\SSD120\Korisnik\GameDev\Unreal projects\UE4Game\FirstProject 4.27\Intermediate\Build\Win64\UE4Editor\Development\FirstProject\UE4Editor-FirstProject-0039.lib and object C:\SSD120\Korisnik\GameDev\Unreal projects\UE4Game\FirstProject 4.27\Intermediate\Build\Win64\UE4Editor\Development\FirstProject\UE4Editor-FirstProject-0039.exp
-    [11/12] UE4Editor-FirstProject-0039.dll
-       Creating library C:\SSD120\Korisnik\GameDev\Unreal projects\UE4Game\FirstProject 4.27\Intermediate\Build\Win64\UE4Editor\Development\FirstProject\UE4Editor-FirstProject-0039.suppressed.lib and object C:\SSD120\Korisnik\GameDev\Unreal projects\UE4Game\FirstProject 4.27\Intermediate\Build\Win64\UE4Editor\Development\FirstProject\UE4Editor-FirstProject-0039.suppressed.exp
-    [12/12] FirstProjectEditor.target
-  Total time in Parallel executor: 28.20 seconds
-  Total execution time: 39.18 seconds
+  Building 4 actions with 4 processes...
+    [1/4] Pickup.cpp
+    [2/4] UE4Editor-FirstProject-0048.lib
+       Creating library C:\SSD120\Korisnik\GameDev\Unreal projects\UE4Game\FirstProject 4.27\Intermediate\Build\Win64\UE4Editor\Development\FirstProject\UE4Editor-FirstProject-0048.lib and object C:\SSD120\Korisnik\GameDev\Unreal projects\UE4Game\FirstProject 4.27\Intermediate\Build\Win64\UE4Editor\Development\FirstProject\UE4Editor-FirstProject-0048.exp
+    [3/4] UE4Editor-FirstProject-0048.dll
+       Creating library C:\SSD120\Korisnik\GameDev\Unreal projects\UE4Game\FirstProject 4.27\Intermediate\Build\Win64\UE4Editor\Development\FirstProject\UE4Editor-FirstProject-0048.suppressed.lib and object C:\SSD120\Korisnik\GameDev\Unreal projects\UE4Game\FirstProject 4.27\Intermediate\Build\Win64\UE4Editor\Development\FirstProject\UE4Editor-FirstProject-0048.suppressed.exp
+    [4/4] FirstProjectEditor.target
+  Total time in Parallel executor: 13.90 seconds
+  Total execution time: 15.50 seconds

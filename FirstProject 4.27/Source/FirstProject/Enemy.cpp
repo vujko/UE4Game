@@ -66,6 +66,7 @@ void AEnemy::BeginPlay()
 {
 	Super::BeginPlay();
 
+	SpawnDefaultController();
 	AIController = Cast<AAIController>(GetController());
 
 	AgroSphere->OnComponentBeginOverlap.AddDynamic(this, &AEnemy::AgroSphereOnOverlapBegin);
