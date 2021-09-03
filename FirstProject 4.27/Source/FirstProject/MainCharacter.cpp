@@ -17,6 +17,7 @@
 #include "Enemy.h"
 #include "MainPlayerController.h"
 #include "Components/CapsuleComponent.h"
+#include "FirstSaveGame.h"
 // Sets default values
 AMainCharacter::AMainCharacter()
 {
@@ -443,5 +444,51 @@ void AMainCharacter::UpdateCombatTarget()
 	if (MainPlayerController)
 	{
 		MainPlayerController->DisplayEnemyHealthBar();
+	}
+}
+
+void AMainCharacter::SwitchLevel(FName LevelName)
+{
+	UWorld* World = GetWorld();
+	if (World)
+	{
+		FString CurrentLevel = World->GetMapName();
+		if (LevelName != *CurrentLevel)
+		{
+			UGameplayStatics::OpenLevel(World, LevelName);
+		}
+	}
+}
+
+void AMainCharacter::SaveGame()
+{
+	UFirstSaveGame* SaveGameInstance = Cast<UFirstSaveGame>(UGameplayStatics::CreateSaveGameObject(UFirstSaveGame::StaticClass()));
+
+	SaveGameInstance->CharacterStats.Coins = Coins;
+	SaveGameInstance->CharacterStats.Health = Health;
+	SaveGameInstance->CharacterStats.Location = GetActorLocation();
+	SaveGameInstance->CharacterStats.MaxHealth = MaxHealth;
+	SaveGameInstance->CharacterStats.MaxStamina = MaxStamina;
+	SaveGameInstance->CharacterStats.Rotation = GetActorRotation();
+	SaveGameInstance->CharacterStats.Stamina = Stamina;
+
+	UGameplayStatics::SaveGameToSlot(SaveGameInstance, SaveGameInstance->PlayerName, SaveGameInstance->UserIndex);
+}
+
+void AMainCharacter::LoadGame(bool SetPosition)
+{
+	UFirstSaveGame* LoadGameInstance = Cast<UFirstSaveGame>(UGameplayStatics::CreateSaveGameObject(UFirstSaveGame::StaticClass()));
+	LoadGameInstance = Cast<UFirstSaveGame>(UGameplayStatics::LoadGameFromSlot(LoadGameInstance->PlayerName, LoadGameInstance->UserIndex));
+
+	Coins = LoadGameInstance->CharacterStats.Coins;
+	Health = LoadGameInstance->CharacterStats.Health;
+	MaxHealth = LoadGameInstance->CharacterStats.MaxHealth;
+	MaxStamina = LoadGameInstance->CharacterStats.MaxStamina;
+	Stamina = LoadGameInstance->CharacterStats.Stamina;
+
+	if (SetPosition)
+	{
+		SetActorLocation(LoadGameInstance->CharacterStats.Location);
+		SetActorRotation(LoadGameInstance->CharacterStats.Rotation);
 	}
 }

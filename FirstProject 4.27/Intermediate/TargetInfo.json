@@ -2,12 +2,12 @@
 	"Targets": [
 		{
 			"Name": "FirstProject",
-			"Path": "C:\\SSD120\\Korisnik\\GameDev\\Unreal projects\\FirstProject 4.27\\Source\\FirstProject.Target.cs",
+			"Path": "C:\\SSD120\\Korisnik\\GameDev\\Unreal projects\\UE4Game\\FirstProject 4.27\\Source\\FirstProject.Target.cs",
 			"Type": "Game"
 		},
 		{
 			"Name": "FirstProjectEditor",
-			"Path": "C:\\SSD120\\Korisnik\\GameDev\\Unreal projects\\FirstProject 4.27\\Source\\FirstProjectEditor.Target.cs",
+			"Path": "C:\\SSD120\\Korisnik\\GameDev\\Unreal projects\\UE4Game\\FirstProject 4.27\\Source\\FirstProjectEditor.Target.cs",
 			"Type": "Editor"
 		}
 	]

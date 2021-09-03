@@ -157,6 +157,29 @@ void EmptyLinkFunctionForGeneratedCodeMainCharacter() {}
 		}
 		return ReturnEnum;
 	}
+	DEFINE_FUNCTION(AMainCharacter::execLoadGame)
+	{
+		P_GET_UBOOL(Z_Param_SetPosition);
+		P_FINISH;
+		P_NATIVE_BEGIN;
+		P_THIS->LoadGame(Z_Param_SetPosition);
+		P_NATIVE_END;
+	}
+	DEFINE_FUNCTION(AMainCharacter::execSaveGame)
+	{
+		P_FINISH;
+		P_NATIVE_BEGIN;
+		P_THIS->SaveGame();
+		P_NATIVE_END;
+	}
+	DEFINE_FUNCTION(AMainCharacter::execSwitchLevel)
+	{
+		P_GET_PROPERTY(FNameProperty,Z_Param_LevelName);
+		P_FINISH;
+		P_NATIVE_BEGIN;
+		P_THIS->SwitchLevel(Z_Param_LevelName);
+		P_NATIVE_END;
+	}
 	DEFINE_FUNCTION(AMainCharacter::execDeathEnd)
 	{
 		P_FINISH;
@@ -201,7 +224,10 @@ void EmptyLinkFunctionForGeneratedCodeMainCharacter() {}
 			{ "EndAttack", &AMainCharacter::execEndAttack },
 			{ "IncrementCoins", &AMainCharacter::execIncrementCoins },
 			{ "IncrementHealth", &AMainCharacter::execIncrementHealth },
+			{ "LoadGame", &AMainCharacter::execLoadGame },
 			{ "PlaySwingSound", &AMainCharacter::execPlaySwingSound },
+			{ "SaveGame", &AMainCharacter::execSaveGame },
+			{ "SwitchLevel", &AMainCharacter::execSwitchLevel },
 		};
 		FNativeFunctionRegistrar::RegisterFunctions(Class, Funcs, UE_ARRAY_COUNT(Funcs));
 	}
@@ -303,6 +329,43 @@ void EmptyLinkFunctionForGeneratedCodeMainCharacter() {}
 		}
 		return ReturnFunction;
 	}
+	struct Z_Construct_UFunction_AMainCharacter_LoadGame_Statics
+	{
+		struct MainCharacter_eventLoadGame_Parms
+		{
+			bool SetPosition;
+		};
+		static void NewProp_SetPosition_SetBit(void* Obj);
+		static const UE4CodeGen_Private::FBoolPropertyParams NewProp_SetPosition;
+		static const UE4CodeGen_Private::FPropertyParamsBase* const PropPointers[];
+#if WITH_METADATA
+		static const UE4CodeGen_Private::FMetaDataPairParam Function_MetaDataParams[];
+#endif
+		static const UE4CodeGen_Private::FFunctionParams FuncParams;
+	};
+	void Z_Construct_UFunction_AMainCharacter_LoadGame_Statics::NewProp_SetPosition_SetBit(void* Obj)
+	{
+		((MainCharacter_eventLoadGame_Parms*)Obj)->SetPosition = 1;
+	}
+	const UE4CodeGen_Private::FBoolPropertyParams Z_Construct_UFunction_AMainCharacter_LoadGame_Statics::NewProp_SetPosition = { "SetPosition", nullptr, (EPropertyFlags)0x0010000000000080, UE4CodeGen_Private::EPropertyGenFlags::Bool | UE4CodeGen_Private::EPropertyGenFlags::NativeBool, RF_Public|RF_Transient|RF_MarkAsNative, 1, sizeof(bool), sizeof(MainCharacter_eventLoadGame_Parms), &Z_Construct_UFunction_AMainCharacter_LoadGame_Statics::NewProp_SetPosition_SetBit, METADATA_PARAMS(nullptr, 0) };
+	const UE4CodeGen_Private::FPropertyParamsBase* const Z_Construct_UFunction_AMainCharacter_LoadGame_Statics::PropPointers[] = {
+		(const UE4CodeGen_Private::FPropertyParamsBase*)&Z_Construct_UFunction_AMainCharacter_LoadGame_Statics::NewProp_SetPosition,
+	};
+#if WITH_METADATA
+	const UE4CodeGen_Private::FMetaDataPairParam Z_Construct_UFunction_AMainCharacter_LoadGame_Statics::Function_MetaDataParams[] = {
+		{ "ModuleRelativePath", "MainCharacter.h" },
+	};
+#endif
+	const UE4CodeGen_Private::FFunctionParams Z_Construct_UFunction_AMainCharacter_LoadGame_Statics::FuncParams = { (UObject*(*)())Z_Construct_UClass_AMainCharacter, nullptr, "LoadGame", nullptr, nullptr, sizeof(MainCharacter_eventLoadGame_Parms), Z_Construct_UFunction_AMainCharacter_LoadGame_Statics::PropPointers, UE_ARRAY_COUNT(Z_Construct_UFunction_AMainCharacter_LoadGame_Statics::PropPointers), RF_Public|RF_Transient|RF_MarkAsNative, (EFunctionFlags)0x04020401, 0, 0, METADATA_PARAMS(Z_Construct_UFunction_AMainCharacter_LoadGame_Statics::Function_MetaDataParams, UE_ARRAY_COUNT(Z_Construct_UFunction_AMainCharacter_LoadGame_Statics::Function_MetaDataParams)) };
+	UFunction* Z_Construct_UFunction_AMainCharacter_LoadGame()
+	{
+		static UFunction* ReturnFunction = nullptr;
+		if (!ReturnFunction)
+		{
+			UE4CodeGen_Private::ConstructUFunction(ReturnFunction, Z_Construct_UFunction_AMainCharacter_LoadGame_Statics::FuncParams);
+		}
+		return ReturnFunction;
+	}
 	struct Z_Construct_UFunction_AMainCharacter_PlaySwingSound_Statics
 	{
 #if WITH_METADATA
@@ -322,6 +385,60 @@ void EmptyLinkFunctionForGeneratedCodeMainCharacter() {}
 		if (!ReturnFunction)
 		{
 			UE4CodeGen_Private::ConstructUFunction(ReturnFunction, Z_Construct_UFunction_AMainCharacter_PlaySwingSound_Statics::FuncParams);
+		}
+		return ReturnFunction;
+	}
+	struct Z_Construct_UFunction_AMainCharacter_SaveGame_Statics
+	{
+#if WITH_METADATA
+		static const UE4CodeGen_Private::FMetaDataPairParam Function_MetaDataParams[];
+#endif
+		static const UE4CodeGen_Private::FFunctionParams FuncParams;
+	};
+#if WITH_METADATA
+	const UE4CodeGen_Private::FMetaDataPairParam Z_Construct_UFunction_AMainCharacter_SaveGame_Statics::Function_MetaDataParams[] = {
+		{ "ModuleRelativePath", "MainCharacter.h" },
+	};
+#endif
+	const UE4CodeGen_Private::FFunctionParams Z_Construct_UFunction_AMainCharacter_SaveGame_Statics::FuncParams = { (UObject*(*)())Z_Construct_UClass_AMainCharacter, nullptr, "SaveGame", nullptr, nullptr, 0, nullptr, 0, RF_Public|RF_Transient|RF_MarkAsNative, (EFunctionFlags)0x04020401, 0, 0, METADATA_PARAMS(Z_Construct_UFunction_AMainCharacter_SaveGame_Statics::Function_MetaDataParams, UE_ARRAY_COUNT(Z_Construct_UFunction_AMainCharacter_SaveGame_Statics::Function_MetaDataParams)) };
+	UFunction* Z_Construct_UFunction_AMainCharacter_SaveGame()
+	{
+		static UFunction* ReturnFunction = nullptr;
+		if (!ReturnFunction)
+		{
+			UE4CodeGen_Private::ConstructUFunction(ReturnFunction, Z_Construct_UFunction_AMainCharacter_SaveGame_Statics::FuncParams);
+		}
+		return ReturnFunction;
+	}
+	struct Z_Construct_UFunction_AMainCharacter_SwitchLevel_Statics
+	{
+		struct MainCharacter_eventSwitchLevel_Parms
+		{
+			FName LevelName;
+		};
+		static const UE4CodeGen_Private::FNamePropertyParams NewProp_LevelName;
+		static const UE4CodeGen_Private::FPropertyParamsBase* const PropPointers[];
+#if WITH_METADATA
+		static const UE4CodeGen_Private::FMetaDataPairParam Function_MetaDataParams[];
+#endif
+		static const UE4CodeGen_Private::FFunctionParams FuncParams;
+	};
+	const UE4CodeGen_Private::FNamePropertyParams Z_Construct_UFunction_AMainCharacter_SwitchLevel_Statics::NewProp_LevelName = { "LevelName", nullptr, (EPropertyFlags)0x0010000000000080, UE4CodeGen_Private::EPropertyGenFlags::Name, RF_Public|RF_Transient|RF_MarkAsNative, 1, STRUCT_OFFSET(MainCharacter_eventSwitchLevel_Parms, LevelName), METADATA_PARAMS(nullptr, 0) };
+	const UE4CodeGen_Private::FPropertyParamsBase* const Z_Construct_UFunction_AMainCharacter_SwitchLevel_Statics::PropPointers[] = {
+		(const UE4CodeGen_Private::FPropertyParamsBase*)&Z_Construct_UFunction_AMainCharacter_SwitchLevel_Statics::NewProp_LevelName,
+	};
+#if WITH_METADATA
+	const UE4CodeGen_Private::FMetaDataPairParam Z_Construct_UFunction_AMainCharacter_SwitchLevel_Statics::Function_MetaDataParams[] = {
+		{ "ModuleRelativePath", "MainCharacter.h" },
+	};
+#endif
+	const UE4CodeGen_Private::FFunctionParams Z_Construct_UFunction_AMainCharacter_SwitchLevel_Statics::FuncParams = { (UObject*(*)())Z_Construct_UClass_AMainCharacter, nullptr, "SwitchLevel", nullptr, nullptr, sizeof(MainCharacter_eventSwitchLevel_Parms), Z_Construct_UFunction_AMainCharacter_SwitchLevel_Statics::PropPointers, UE_ARRAY_COUNT(Z_Construct_UFunction_AMainCharacter_SwitchLevel_Statics::PropPointers), RF_Public|RF_Transient|RF_MarkAsNative, (EFunctionFlags)0x00020401, 0, 0, METADATA_PARAMS(Z_Construct_UFunction_AMainCharacter_SwitchLevel_Statics::Function_MetaDataParams, UE_ARRAY_COUNT(Z_Construct_UFunction_AMainCharacter_SwitchLevel_Statics::Function_MetaDataParams)) };
+	UFunction* Z_Construct_UFunction_AMainCharacter_SwitchLevel()
+	{
+		static UFunction* ReturnFunction = nullptr;
+		if (!ReturnFunction)
+		{
+			UE4CodeGen_Private::ConstructUFunction(ReturnFunction, Z_Construct_UFunction_AMainCharacter_SwitchLevel_Statics::FuncParams);
 		}
 		return ReturnFunction;
 	}
@@ -458,7 +575,10 @@ void EmptyLinkFunctionForGeneratedCodeMainCharacter() {}
 		{ &Z_Construct_UFunction_AMainCharacter_EndAttack, "EndAttack" }, // 2598814182
 		{ &Z_Construct_UFunction_AMainCharacter_IncrementCoins, "IncrementCoins" }, // 3524738435
 		{ &Z_Construct_UFunction_AMainCharacter_IncrementHealth, "IncrementHealth" }, // 1416861018
+		{ &Z_Construct_UFunction_AMainCharacter_LoadGame, "LoadGame" }, // 3383625046
 		{ &Z_Construct_UFunction_AMainCharacter_PlaySwingSound, "PlaySwingSound" }, // 3153445338
+		{ &Z_Construct_UFunction_AMainCharacter_SaveGame, "SaveGame" }, // 2885945418
+		{ &Z_Construct_UFunction_AMainCharacter_SwitchLevel, "SwitchLevel" }, // 3404270900
 	};
 #if WITH_METADATA
 	const UE4CodeGen_Private::FMetaDataPairParam Z_Construct_UClass_AMainCharacter_Statics::Class_MetaDataParams[] = {
@@ -726,7 +846,7 @@ void EmptyLinkFunctionForGeneratedCodeMainCharacter() {}
 		}
 		return OuterClass;
 	}
-	IMPLEMENT_CLASS(AMainCharacter, 3664146905);
+	IMPLEMENT_CLASS(AMainCharacter, 1228446495);
 	template<> FIRSTPROJECT_API UClass* StaticClass<AMainCharacter>()
 	{
 		return AMainCharacter::StaticClass();
