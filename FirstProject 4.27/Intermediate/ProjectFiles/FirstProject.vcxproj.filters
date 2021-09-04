@@ -3,7 +3,7 @@
   <ItemGroup>
     <None Include="..\..\FirstProject.uproject" />
     <Filter Include="Source">
-      <UniqueIdentifier>{E35646DD-F0B5-4000-9767-DCEC1769AAD9}</UniqueIdentifier>
+      <UniqueIdentifier>{A5C206FA-F7E5-4EA1-9777-1DDEB50C9560}</UniqueIdentifier>
     </Filter>
     <None Include="..\..\Source\FirstProject.Target.cs">
       <Filter>Source</Filter>
@@ -13,7 +13,7 @@
     </None>
     <None Include="..\..\FirstProject.code-workspace" />
     <Filter Include="Config">
-      <UniqueIdentifier>{9134C4F6-7B1B-4D74-8451-BFCC2F8FBC8B}</UniqueIdentifier>
+      <UniqueIdentifier>{E0C31914-2EF0-46E7-B60D-4FA64D3335F2}</UniqueIdentifier>
     </Filter>
     <None Include="..\..\Config\DefaultEditor.ini">
       <Filter>Config</Filter>
@@ -28,7 +28,7 @@
       <Filter>Config</Filter>
     </None>
     <Filter Include="Source\FirstProject">
-      <UniqueIdentifier>{4AA1130B-31D6-4ADB-9920-50FC4985D79E}</UniqueIdentifier>
+      <UniqueIdentifier>{50EF0790-F6D4-4C94-B9B7-848CD35B73E3}</UniqueIdentifier>
     </Filter>
     <ClCompile Include="..\..\Source\FirstProject\Collider.cpp">
       <Filter>Source\FirstProject</Filter>
@@ -103,6 +103,12 @@
       <Filter>Source\FirstProject</Filter>
     </ClCompile>
     <ClInclude Include="..\..\Source\FirstProject\Item.h">
+      <Filter>Source\FirstProject</Filter>
+    </ClInclude>
+    <ClCompile Include="..\..\Source\FirstProject\ItemStorage.cpp">
+      <Filter>Source\FirstProject</Filter>
+    </ClCompile>
+    <ClInclude Include="..\..\Source\FirstProject\ItemStorage.h">
       <Filter>Source\FirstProject</Filter>
     </ClInclude>
     <ClCompile Include="..\..\Source\FirstProject\LevelTransitionVolume.cpp">

@@ -124,6 +124,9 @@ public:
 	UPROPERTY(EditAnywhere, BlueprintReadWrite, Category = Combat)
 	TSubclassOf<AEnemy> EnemyFilter;
 
+	UPROPERTY(EditDefaultsOnly, Category = SaveData)
+	TSubclassOf<class AItemStorage> WeaponStorage;
+
 	FORCEINLINE void SetCombatTarget(AEnemy* Target) { CombatTarget = Target; }
 	FORCEINLINE class USpringArmComponent* GetCameraBoom() const {return CameraBoom;}
 	FORCEINLINE class UCameraComponent* GetCameraFollow() const {return CameraFollow;}

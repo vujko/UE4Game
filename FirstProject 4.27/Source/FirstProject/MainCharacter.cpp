@@ -18,6 +18,7 @@
 #include "MainPlayerController.h"
 #include "Components/CapsuleComponent.h"
 #include "FirstSaveGame.h"
+#include "ItemStorage.h"
 // Sets default values
 AMainCharacter::AMainCharacter()
 {
@@ -472,6 +473,11 @@ void AMainCharacter::SaveGame()
 	SaveGameInstance->CharacterStats.Rotation = GetActorRotation();
 	SaveGameInstance->CharacterStats.Stamina = Stamina;
 
+	if (EquippedWeapon)
+	{
+		SaveGameInstance->CharacterStats.WeaponName = EquippedWeapon->Name;
+	}
+
 	UGameplayStatics::SaveGameToSlot(SaveGameInstance, SaveGameInstance->PlayerName, SaveGameInstance->UserIndex);
 }
 
@@ -485,6 +491,21 @@ void AMainCharacter::LoadGame(bool SetPosition)
 	MaxHealth = LoadGameInstance->CharacterStats.MaxHealth;
 	MaxStamina = LoadGameInstance->CharacterStats.MaxStamina;
 	Stamina = LoadGameInstance->CharacterStats.Stamina;
+
+	if (WeaponStorage)
+	{
+		AItemStorage* Weapons = GetWorld()->SpawnActor<AItemStorage>(WeaponStorage);
+		if (Weapons)
+		{
+			FString WeaponName = LoadGameInstance->CharacterStats.WeaponName;
+			if (Weapons->WeaponMap.Contains(WeaponName))
+			{
+				AWeapon* WeaponToEquip = GetWorld()->SpawnActor<AWeapon>(Weapons->WeaponMap[WeaponName]);
+				WeaponToEquip->Equip(this);
+			}
+			
+		}
+	}
 
 	if (SetPosition)
 	{

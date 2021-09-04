@@ -59,3 +59,5 @@ C:\SSD120\Korisnik\GameDev\Unreal projects\UE4Game\FirstProject 4.27\Source\Firs
 C:\Program Files\Epic Games\UE_4.27\Engine\Source\Runtime\Engine\Classes\GameFramework/SaveGame.h
 C:\Program Files\Epic Games\UE_4.27\Engine\Intermediate\Build\Win64\UE4Editor\Inc\Engine\SaveGame.generated.h
 C:\SSD120\Korisnik\GameDev\Unreal projects\UE4Game\FirstProject 4.27\Intermediate\Build\Win64\UE4Editor\Inc\FirstProject\FirstSaveGame.generated.h
+C:\SSD120\Korisnik\GameDev\Unreal projects\UE4Game\FirstProject 4.27\Source\FirstProject\ItemStorage.h
+C:\SSD120\Korisnik\GameDev\Unreal projects\UE4Game\FirstProject 4.27\Intermediate\Build\Win64\UE4Editor\Inc\FirstProject\ItemStorage.generated.h

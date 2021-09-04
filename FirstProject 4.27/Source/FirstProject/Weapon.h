@@ -53,6 +53,9 @@ public:
 	UPROPERTY(VisibleAnywhere, BlueprintReadOnly, Category = Combat)
 	AController* WeaponInstigator;
 
+	UPROPERTY(EditDefaultsOnly, Category = SaveData)
+	FString Name;
+
 	FORCEINLINE void SetInstigator(AController* Inst) { WeaponInstigator = Inst; }
 
 	AWeapon();
