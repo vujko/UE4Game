@@ -25,6 +25,17 @@ void AMainPlayerController::BeginPlay()
         }
         EnemyHealthBar->SetAlignmentInViewport(FVector2D(0.f, 0.f));
     }
+
+    if (WPauseMenu)
+    {
+        PauseMenu = CreateWidget<UUserWidget>(this, WPauseMenu);
+        if (PauseMenu)
+        {
+            PauseMenu->AddToViewport();
+            PauseMenu->SetVisibility(ESlateVisibility::Hidden);
+        }
+
+    }
 }
 
 void AMainPlayerController::DisplayEnemyHealthBar()
@@ -45,6 +56,32 @@ void AMainPlayerController::HideEnemyHealthBar()
     }
 }
 
+void AMainPlayerController::DisplayPauseMenu_Implementation()
+{
+    if (PauseMenu)
+    {
+        bPauseMenuVisible = true;
+        PauseMenu->SetVisibility(ESlateVisibility::Visible);
+
+        FInputModeGameAndUI InputMode;
+        SetInputMode(InputMode);
+        bShowMouseCursor = true;
+        SetPause(true);
+    }
+}
+
+void AMainPlayerController::HidePauseMenu_Implementation()
+{
+    if (PauseMenu)
+    {
+        bPauseMenuVisible = false;
+
+        GameModeOnly();
+        bShowMouseCursor = false;
+        SetPause(false);
+    }
+}
+
 void AMainPlayerController::Tick(float DeltaTime)
 {
     Super::Tick(DeltaTime);
@@ -57,4 +94,25 @@ void AMainPlayerController::Tick(float DeltaTime)
         EnemyHealthBar->SetPositionInViewport(ScreenLocation);
         EnemyHealthBar->SetDesiredSizeInViewport(FVector2D(200.f, 25.f));   
     }
+}
+
+void AMainPlayerController::TogglePauseMenu()
+{
+    if (bPauseMenuVisible)
+    {
+        //da smo pozvali HidePuaseMenu_Implementation() pozvala bi se funkcija definisana u cpp
+        //ovako se poziva event u blueprintu
+        HidePauseMenu();
+        
+    }
+    else {
+        DisplayPauseMenu();
+        
+    }
+}
+
+void AMainPlayerController::GameModeOnly()
+{
+    FInputModeGameOnly InputMode;
+    SetInputMode(InputMode);
 }

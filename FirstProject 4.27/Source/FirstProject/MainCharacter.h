@@ -94,6 +94,8 @@ public:
 	UPROPERTY(EditAnywhere, BlueprintReadWrite)
 	bool bLMBDown;
 
+	bool bESCDown;
+
 	UPROPERTY(EditAnywhere, BlueprintReadWrite, Category = Movement)
 	float StaminaDrainRate;
 
@@ -158,6 +160,10 @@ public:
 
 	void LMBUp();
 
+	void ESCDown();
+
+	void ESCUp();
+
 	void TurnAtRate(float Rate);
 
 	void LookUpAtRate(float Rate);
@@ -209,5 +215,7 @@ public:
 
 	UFUNCTION(BlueprintCallable)
 	void LoadGame(bool SetPosition);
+
+	void LoadGameNoSwitch();
 
 };

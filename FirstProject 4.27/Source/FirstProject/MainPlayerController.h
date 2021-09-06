@@ -30,13 +30,30 @@ public:
 	UPROPERTY(EditAnywhere, BlueprintReadWrite, Category = Widgets)
 	UUserWidget* EnemyHealthBar;
 
-	bool bEnemyHealthBarVisible;
+	UPROPERTY(EditAnywhere, BlueprintReadWrite, Category = Widgets)
+	TSubclassOf<UUserWidget> WPauseMenu;
+
+	UPROPERTY(EditAnywhere, BlueprintReadWrite, Category = Widgets)
+	UUserWidget* PauseMenu;
 
 	FVector EnemyLocation;
+
+	bool bEnemyHealthBarVisible;
 
 	void DisplayEnemyHealthBar();
 	void HideEnemyHealthBar();
 
+	bool bPauseMenuVisible;
+
+	UFUNCTION(BlueprintNativeEvent, BlueprintCallable,  Category = HUD)
+	void DisplayPauseMenu();
+
+	UFUNCTION(BlueprintNativeEvent, BlueprintCallable, Category = HUD)
+	void HidePauseMenu();
+
+	void TogglePauseMenu();
+
+	void GameModeOnly();
 
 
 protected:

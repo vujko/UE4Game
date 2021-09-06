@@ -14,8 +14,24 @@ PRAGMA_DISABLE_DEPRECATION_WARNINGS
 #define FIRSTPROJECT_MainPlayerController_generated_h
 
 #define FirstProject_4_27_Source_FirstProject_MainPlayerController_h_15_SPARSE_DATA
-#define FirstProject_4_27_Source_FirstProject_MainPlayerController_h_15_RPC_WRAPPERS
-#define FirstProject_4_27_Source_FirstProject_MainPlayerController_h_15_RPC_WRAPPERS_NO_PURE_DECLS
+#define FirstProject_4_27_Source_FirstProject_MainPlayerController_h_15_RPC_WRAPPERS \
+	virtual void HidePauseMenu_Implementation(); \
+	virtual void DisplayPauseMenu_Implementation(); \
+ \
+	DECLARE_FUNCTION(execHidePauseMenu); \
+	DECLARE_FUNCTION(execDisplayPauseMenu);
+
+
+#define FirstProject_4_27_Source_FirstProject_MainPlayerController_h_15_RPC_WRAPPERS_NO_PURE_DECLS \
+	virtual void HidePauseMenu_Implementation(); \
+	virtual void DisplayPauseMenu_Implementation(); \
+ \
+	DECLARE_FUNCTION(execHidePauseMenu); \
+	DECLARE_FUNCTION(execDisplayPauseMenu);
+
+
+#define FirstProject_4_27_Source_FirstProject_MainPlayerController_h_15_EVENT_PARMS
+#define FirstProject_4_27_Source_FirstProject_MainPlayerController_h_15_CALLBACK_WRAPPERS
 #define FirstProject_4_27_Source_FirstProject_MainPlayerController_h_15_INCLASS_NO_PURE_DECLS \
 private: \
 	static void StaticRegisterNativesAMainPlayerController(); \
@@ -61,13 +77,17 @@ public: \
 
 
 #define FirstProject_4_27_Source_FirstProject_MainPlayerController_h_15_PRIVATE_PROPERTY_OFFSET
-#define FirstProject_4_27_Source_FirstProject_MainPlayerController_h_12_PROLOG
+#define FirstProject_4_27_Source_FirstProject_MainPlayerController_h_12_PROLOG \
+	FirstProject_4_27_Source_FirstProject_MainPlayerController_h_15_EVENT_PARMS
+
+
 #define FirstProject_4_27_Source_FirstProject_MainPlayerController_h_15_GENERATED_BODY_LEGACY \
 PRAGMA_DISABLE_DEPRECATION_WARNINGS \
 public: \
 	FirstProject_4_27_Source_FirstProject_MainPlayerController_h_15_PRIVATE_PROPERTY_OFFSET \
 	FirstProject_4_27_Source_FirstProject_MainPlayerController_h_15_SPARSE_DATA \
 	FirstProject_4_27_Source_FirstProject_MainPlayerController_h_15_RPC_WRAPPERS \
+	FirstProject_4_27_Source_FirstProject_MainPlayerController_h_15_CALLBACK_WRAPPERS \
 	FirstProject_4_27_Source_FirstProject_MainPlayerController_h_15_INCLASS \
 	FirstProject_4_27_Source_FirstProject_MainPlayerController_h_15_STANDARD_CONSTRUCTORS \
 public: \
@@ -80,6 +100,7 @@ public: \
 	FirstProject_4_27_Source_FirstProject_MainPlayerController_h_15_PRIVATE_PROPERTY_OFFSET \
 	FirstProject_4_27_Source_FirstProject_MainPlayerController_h_15_SPARSE_DATA \
 	FirstProject_4_27_Source_FirstProject_MainPlayerController_h_15_RPC_WRAPPERS_NO_PURE_DECLS \
+	FirstProject_4_27_Source_FirstProject_MainPlayerController_h_15_CALLBACK_WRAPPERS \
 	FirstProject_4_27_Source_FirstProject_MainPlayerController_h_15_INCLASS_NO_PURE_DECLS \
 	FirstProject_4_27_Source_FirstProject_MainPlayerController_h_15_ENHANCED_CONSTRUCTORS \
 private: \

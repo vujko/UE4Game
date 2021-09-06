@@ -75,7 +75,14 @@ void AMainCharacter::BeginPlay()
 {
 	Super::BeginPlay();
 	MainPlayerController = Cast<AMainPlayerController>(GetController());
-	
+	FString MapName = GetWorld()->GetMapName();
+	MapName.RemoveFromStart(GetWorld()->StreamingLevelsPrefix);
+
+	if (MapName != "SunTemple")
+	{
+		LoadGameNoSwitch();
+		if (MainPlayerController) MainPlayerController->GameModeOnly();
+	}	
 }
 
 // Called every frame
@@ -208,6 +215,9 @@ void AMainCharacter::SetupPlayerInputComponent(UInputComponent* PlayerInputCompo
 
 	PlayerInputComponent->BindAction("Sprint", IE_Pressed, this, &AMainCharacter::ShiftKeyDown);
 	PlayerInputComponent->BindAction("Sprint", IE_Released, this, &AMainCharacter::ShiftKeyUp);
+
+	PlayerInputComponent->BindAction("ESC", IE_Pressed, this, &AMainCharacter::ESCDown).bExecuteWhenPaused = true;
+	PlayerInputComponent->BindAction("ESC", IE_Released, this, &AMainCharacter::ESCUp).bExecuteWhenPaused = true;
 
 	PlayerInputComponent->BindAxis("MoveForward", this, &AMainCharacter::MoveForward);
 	PlayerInputComponent->BindAxis("MoveRight", this, &AMainCharacter::MoveRight);
@@ -345,6 +355,20 @@ void AMainCharacter::LMBUp()
 	bLMBDown = false;
 }
 
+void AMainCharacter::ESCDown()
+{
+	bESCDown = true;
+	if (MainPlayerController)
+	{
+		MainPlayerController->TogglePauseMenu();
+	}
+}
+
+void AMainCharacter::ESCUp()
+{
+	bESCDown = false;
+}
+
 void AMainCharacter::SetEquippedWeapon(AWeapon* WeaponToSet)
 {
 	if(EquippedWeapon) EquippedWeapon->Destroy();
@@ -473,6 +497,9 @@ void AMainCharacter::SaveGame()
 	SaveGameInstance->CharacterStats.Rotation = GetActorRotation();
 	SaveGameInstance->CharacterStats.Stamina = Stamina;
 
+	FString MapName = GetWorld()->GetMapName();
+	MapName.RemoveFromStart(GetWorld()->StreamingLevelsPrefix);
+	SaveGameInstance->CharacterStats.MapName = MapName;
 	if (EquippedWeapon)
 	{
 		SaveGameInstance->CharacterStats.WeaponName = EquippedWeapon->Name;
@@ -491,6 +518,8 @@ void AMainCharacter::LoadGame(bool SetPosition)
 	MaxHealth = LoadGameInstance->CharacterStats.MaxHealth;
 	MaxStamina = LoadGameInstance->CharacterStats.MaxStamina;
 	Stamina = LoadGameInstance->CharacterStats.Stamina;
+
+	
 
 	if (WeaponStorage)
 	{
@@ -512,4 +541,49 @@ void AMainCharacter::LoadGame(bool SetPosition)
 		SetActorLocation(LoadGameInstance->CharacterStats.Location);
 		SetActorRotation(LoadGameInstance->CharacterStats.Rotation);
 	}
+
+	SetMovementStatus(EMovementStatus::EMS_Normal);
+	GetMesh()->bPauseAnims = false;
+	GetMesh()->bNoSkeletonUpdate = false;
+	GetCapsuleComponent()->SetCollisionEnabled(ECollisionEnabled::QueryAndPhysics);
+
+	if (LoadGameInstance->CharacterStats.MapName != TEXT(""))
+	{
+		FName MapName = *LoadGameInstance->CharacterStats.MapName;
+		SwitchLevel(MapName);
+	}
+
+	if (MainPlayerController) MainPlayerController->GameModeOnly();
+}
+
+void AMainCharacter::LoadGameNoSwitch()
+{
+	UFirstSaveGame* LoadGameInstance = Cast<UFirstSaveGame>(UGameplayStatics::CreateSaveGameObject(UFirstSaveGame::StaticClass()));
+	LoadGameInstance = Cast<UFirstSaveGame>(UGameplayStatics::LoadGameFromSlot(LoadGameInstance->PlayerName, LoadGameInstance->UserIndex));
+
+	Coins = LoadGameInstance->CharacterStats.Coins;
+	Health = LoadGameInstance->CharacterStats.Health;
+	MaxHealth = LoadGameInstance->CharacterStats.MaxHealth;
+	MaxStamina = LoadGameInstance->CharacterStats.MaxStamina;
+	Stamina = LoadGameInstance->CharacterStats.Stamina;
+
+	if (WeaponStorage)
+	{
+		AItemStorage* Weapons = GetWorld()->SpawnActor<AItemStorage>(WeaponStorage);
+		if (Weapons)
+		{
+			FString WeaponName = LoadGameInstance->CharacterStats.WeaponName;
+			if (Weapons->WeaponMap.Contains(WeaponName))
+			{
+				AWeapon* WeaponToEquip = GetWorld()->SpawnActor<AWeapon>(Weapons->WeaponMap[WeaponName]);
+				WeaponToEquip->Equip(this);
+			}
+
+		}
+	}
+
+	SetMovementStatus(EMovementStatus::EMS_Normal);
+	GetMesh()->bPauseAnims = false;
+	GetMesh()->bNoSkeletonUpdate = false;
+	GetCapsuleComponent()->SetCollisionEnabled(ECollisionEnabled::QueryAndPhysics);
 }
